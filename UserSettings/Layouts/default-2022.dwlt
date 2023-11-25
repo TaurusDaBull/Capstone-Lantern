@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 50}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 127
+  controlID: 121
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,8 +223,8 @@ MonoBehaviour:
     y: 0
     width: 349
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -276,7 +276,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/TextMesh Pro/Resources
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -284,16 +284,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/TextMesh Pro/Resources/Fonts & Materials
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Willi\Lantern
+  m_LastProjectPath: C:\Users\Willi\Documents\GitHub\Capstone-Lantern-
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 72550000
-    m_LastClickedID: 21874
-    m_ExpandedIDs: 00000000285500002a5500002c5500002e550000665500006a5500006c5500007055000072550000
+    m_SelectedIDs: 78550000
+    m_LastClickedID: 21880
+    m_ExpandedIDs: 00000000785500007a5500007c5500007e550000805500008255000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -321,7 +321,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000285500002a5500002c5500002e550000
+    m_ExpandedIDs: 00000000785500007a5500007c5500007e5500008055000082550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -415,23 +415,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: bc4f0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8e7afdffb09bfdffaea6fdff70a7fdffb4aafdff38aefdffa2c1fdff1eedfdff022efeffcac7fefff2dffeff2cfbffff8c600000fe610000666200006e7d0000829500006a970000
+      m_SelectedIDs: 4a520000
+      m_LastClickedID: 21066
+      m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Player
+        m_OriginalName: Player
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 21066
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -785,9 +785,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.0728312, y: 6.1247716, z: 2.883503}
+    m_Target: {x: -79.01741, y: 13.195953, z: -8.9802265}
     speed: 2
-    m_Value: {x: -3.0728312, y: 6.1247716, z: 2.883503}
+    m_Value: {x: -79.01741, y: 13.195953, z: -8.9802265}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -833,13 +833,13 @@ MonoBehaviour:
     m_GridAxis: 2
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.13457307, y: -0.023551755, z: 0.0030267811, w: -0.9907466}
+    m_Target: {x: 0.12307921, y: 0.4997658, z: -0.0709337, w: 0.85471255}
     speed: 2
-    m_Value: {x: -0.13307, y: -0.023553299, z: 0.0029910547, w: -0.99082226}
+    m_Value: {x: 0.12678291, y: 0.500602, z: -0.07335624, w: 0.8531955}
   m_Size:
-    m_Target: 15.029073
+    m_Target: 11.889368
     speed: 2
-    m_Value: 15.029073
+    m_Value: 12.4496
   m_Ortho:
     m_Target: 1
     speed: 2
