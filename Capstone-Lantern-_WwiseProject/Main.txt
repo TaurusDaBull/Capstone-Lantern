@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2889316634	KeyPadPress			\Default Work Unit\KeyPadPress	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	936608479	Keypad-Press	C:\Users\Willi\Documents\WwiseProjects\Keypad-press\.cache\Windows\SFX\Keypad-Press_71893BB8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Keypad-Press		53016
+

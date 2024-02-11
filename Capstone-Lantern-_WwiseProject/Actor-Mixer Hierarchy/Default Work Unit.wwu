@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F0E42161-897D-4609-BE66-E39EEEA723AA}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{F0E42161-897D-4609-BE66-E39EEEA723AA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Keypad-Press" ID="{9EB1521E-51DF-4BA6-9BA6-96B70C94B0AC}" ShortID="527479010">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Keypad-Press" ID="{68AC5FCF-0B5D-424B-8ED8-AE96A308FE2E}">
+							<PropertyList>
+								<Property Name="TrimEnd" Type="Real64" Value="0.21"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Keypad-Press.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="324331803"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Keypad-Press" ID="{68AC5FCF-0B5D-424B-8ED8-AE96A308FE2E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="doorOpen" ID="{45182E9A-EB32-4F0A-8239-2CF8ACD0ADF7}" ShortID="3072081">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DoorOpen" ID="{8F43B404-40D6-4FE3-8F17-282DB73CB166}">
+							<Language>SFX</Language>
+							<AudioFile>DoorOpen.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="649141958"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DoorOpen" ID="{8F43B404-40D6-4FE3-8F17-282DB73CB166}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

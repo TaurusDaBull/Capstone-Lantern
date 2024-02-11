@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -42,8 +42,8 @@ Material:
     - _OutlineWidth: 0
     m_Colors:
     - MyColor: {r: 0, g: 0.9433962, b: 0.0778034, a: 1}
-    - MyLightDirection: {r: -0.82493263, g: -0.513384, b: -0.2364805, a: 0}
-    - MyLightPosition: {r: -18.16719, g: 7.7769814, b: -12.608183, a: 0}
+    - MyLightDirection: {r: -0.9938471, g: -0.10504808, b: -0.035118174, a: 0}
+    - MyLightPosition: {r: -78.79906, g: 5.404917, b: -5.6759996, a: 0}
     - _Color: {r: 0.9811321, g: 0.087931626, b: 0.087931626, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

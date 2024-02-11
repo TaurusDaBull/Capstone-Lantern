@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2122995345	openDoor			\Default Work Unit\openDoor	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	649141958	DoorOpen	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\DoorOpen_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorOpen		459104
+

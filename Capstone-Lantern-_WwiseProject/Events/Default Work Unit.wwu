@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{370B95CA-8236-4786-ADEB-CB9A8B06A07F}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{370B95CA-8236-4786-ADEB-CB9A8B06A07F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="keyPadPressed" ID="{B9F78E4B-7289-495E-97FE-FB4425FB0CE9}">
+					<ChildrenList>
+						<Action Name="" ID="{4C90A990-BD2A-4667-AB7B-265F27B85CC2}" ShortID="450042740">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Keypad-Press" ID="{9EB1521E-51DF-4BA6-9BA6-96B70C94B0AC}" WorkUnitID="{F0E42161-897D-4609-BE66-E39EEEA723AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="doorOpen" ID="{BD78F96F-DBD2-4113-8798-56BE28962DA0}">
+					<ChildrenList>
+						<Action Name="" ID="{7CD3DDFB-1285-41F7-BAAF-E47AAB67A0A8}" ShortID="331625164">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="doorOpen" ID="{45182E9A-EB32-4F0A-8239-2CF8ACD0ADF7}" WorkUnitID="{F0E42161-897D-4609-BE66-E39EEEA723AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

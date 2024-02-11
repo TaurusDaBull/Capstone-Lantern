@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C0D26B7-10B7-4ECA-9DEE-CF45C1C378BE}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2C0D26B7-10B7-4ECA-9DEE-CF45C1C378BE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="keyPadPressed" ID="{37AAB7F6-FCFF-4844-BF21-CCEC4CB4D0EF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="keyPadPressed" ID="{B9F78E4B-7289-495E-97FE-FB4425FB0CE9}" WorkUnitID="{370B95CA-8236-4786-ADEB-CB9A8B06A07F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="doorOpen" ID="{84801CB0-6EC9-4F37-8928-C0DDC553FCB4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="doorOpen" ID="{BD78F96F-DBD2-4113-8798-56BE28962DA0}" WorkUnitID="{370B95CA-8236-4786-ADEB-CB9A8B06A07F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

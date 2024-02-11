@@ -18,7 +18,6 @@
 	  
       sampler2D _MainTex;
       void surf (Input IN, inout SurfaceOutputStandard o) 
-
       {
 		  fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * fixed4(1,1,1,1);
           o.Albedo = c.rgb/*fixed3(1,0,0)*/;

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2108322741	keyPadPressed			\Default Work Unit\keyPadPressed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	324331803	Keypad-Press	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Keypad-Press_20DA73BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Keypad-Press		37140
+
