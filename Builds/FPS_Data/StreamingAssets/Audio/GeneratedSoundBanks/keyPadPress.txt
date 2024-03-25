@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1404805401	doorOpen			\Default Work Unit\doorOpen	
+	2889316634	keyPadPress			\Default Work Unit\keyPadPress	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	324331803	Keypad-Press	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Keypad-Press_20DA73BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Keypad-Press		37140
+	649141958	DoorOpen	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\DoorOpen_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\DoorOpen		459104
+

@@ -26,4 +26,5 @@ public class RevealGrabber : MonoBehaviour
             Debug.Log("Out of Bounds");
         }
     }
+
 }

@@ -62,28 +62,37 @@
     <Compile Include="Assets\Scripts\W.I.P\FPSController.cs" />
     <Compile Include="Assets\Scripts\Next-Level(s)\NextLevel-2.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\LanternCapture.cs" />
+    <Compile Include="Assets\Scripts\Lantern Code\SpawnLanternLV1.cs" />
     <Compile Include="Assets\Scripts\Player\InputManager.cs" />
     <Compile Include="Assets\Scripts\Passcode\Reveal.cs" />
     <Compile Include="Assets\Scripts\Player\CursorLock.cs" />
     <Compile Include="Assets\Input\Player Input.cs" />
-    <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\ChangeColor.cs" />
-    <Compile Include="Assets\Scripts\Passcode\PasscodeLV3.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\SpawnLantern.cs" />
+    <Compile Include="Assets\Scripts\Next-Level(s)\NextLevel-4.cs" />
+    <Compile Include="Assets\Scripts\Passcode\Passcode Level 3\PasscodeLV3B.cs" />
     <Compile Include="Assets\Scripts\W.I.P\RevealGrabber.cs" />
     <Compile Include="Assets\Scripts\RetiredCode\Throwing.cs" />
     <Compile Include="Assets\Scripts\Passcode\Passcode1.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\PickUpLantern.cs" />
+    <Compile Include="Assets\Scripts\Passcode\Panels\Mimic.cs" />
+    <Compile Include="Assets\Scripts\W.I.P\PasscodeLV3.cs" />
+    <Compile Include="Assets\Scripts\Player\CloseGame.cs" />
+    <Compile Include="Assets\Scripts\Passcode\Passcode Level 3\PasscodeLV3C.cs" />
     <Compile Include="Assets\Scripts\Passcode\DoorOpen.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMotor.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\ThrowLanternTrajectory.cs" />
     <Compile Include="Assets\Scripts\Passcode\RevealMulti-Panel.cs" />
     <Compile Include="Assets\Scripts\W.I.P\Multi-Panel.cs" />
     <Compile Include="Assets\Scripts\Next-Level(s)\NextLevel-3.cs" />
+    <Compile Include="Assets\Scripts\Passcode\Passcode Level 3\PasscodeLV3A.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\W.I.P\PasscodeMultiPanel.cs" />
+    <Compile Include="Assets\Scripts\Passcode\Panels\Mimic 2.cs" />
     <Compile Include="Assets\Scripts\Passcode\DoorOpenLV3.cs" />
     <Compile Include="Assets\Scripts\Passcode\keyPress.cs" />
+    <Compile Include="Assets\Scripts\Player\ShowFPS.cs" />
+    <Compile Include="Assets\Scripts\Passcode\Panels\Mimic 3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Textures\Reveal Text\RevealingShader.shader" />
@@ -92,6 +101,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\keyPadPress.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Graphy - Ultimate Stats Monitor\Changelog.txt" />
     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Main.txt" />
     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\Init.txt" />
     <None Include="Assets\shaders\Ultraviolet2.shader" />
@@ -101,6 +111,8 @@
     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\ProjectInfo.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\shaders\Ultraviolet1.shader" />
+    <None Include="Assets\Graphy - Ultimate Stats Monitor\Shaders\GraphMobile.shader" />
+    <None Include="Assets\Graphy - Ultimate Stats Monitor\Font\Northwest-Bold\ERIC-TIRADO-NORTHWEST-LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -115,6 +127,8 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\StreamingAssets\Audio\GeneratedSoundBanks\PluginInfo.xml" />
     <None Include="Assets\WwiseSettings.xml" />
+    <None Include="Assets\Graphy - Ultimate Stats Monitor\Font\Roboto\LICENSE.txt" />
+    <None Include="Assets\Graphy - Ultimate Stats Monitor\Shaders\GraphStandard.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -737,15 +751,6 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
@@ -755,35 +760,44 @@
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.AI.Navigation.Updater">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
@@ -793,25 +807,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.csproj">
-      <Project>{8721D3BE-0480-2F8B-C005-1A4407EEA78F}</Project>
-      <Name>AK.Wwise.Unity.API.WwiseTypes</Name>
-    </ProjectReference>
-    <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.csproj">
-      <Project>{FF54C739-06F3-EA4D-5102-03BFCDF0189E}</Project>
-      <Name>AK.Wwise.Unity.MonoBehaviour</Name>
-    </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.Timeline.csproj">
       <Project>{AFF8D8B6-9BDC-5F41-EDCD-97D3007259CC}</Project>
       <Name>AK.Wwise.Unity.Timeline</Name>
     </ProjectReference>
+    <ProjectReference Include="Tayx.Graphy.Editor.csproj">
+      <Project>{7EB8D0B9-1812-112E-4624-B9A03A98730D}</Project>
+      <Name>Tayx.Graphy.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.API.Editor.csproj">
       <Project>{81F7E10C-28F2-2D11-196A-55750D6C5CB6}</Project>
       <Name>AK.Wwise.Unity.API.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Ak.Wwise.Api.WAAPI.csproj">
-      <Project>{8BD0A156-0C61-3950-6432-0B9EE2DDB794}</Project>
-      <Name>Ak.Wwise.Api.WAAPI</Name>
     </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.Editor.csproj">
       <Project>{1A19383D-EEF5-5B9A-94FE-4A2A97EF579F}</Project>
@@ -824,6 +830,22 @@
     <ProjectReference Include="AK.Wwise.Unity.Timeline.Editor.csproj">
       <Project>{6A9B6D5B-6652-A46A-94EC-DDAF2AFD96C0}</Project>
       <Name>AK.Wwise.Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.csproj">
+      <Project>{FF54C739-06F3-EA4D-5102-03BFCDF0189E}</Project>
+      <Name>AK.Wwise.Unity.MonoBehaviour</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.csproj">
+      <Project>{8721D3BE-0480-2F8B-C005-1A4407EEA78F}</Project>
+      <Name>AK.Wwise.Unity.API.WwiseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ak.Wwise.Api.WAAPI.csproj">
+      <Project>{8BD0A156-0C61-3950-6432-0B9EE2DDB794}</Project>
+      <Name>Ak.Wwise.Api.WAAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Tayx.Graphy.csproj">
+      <Project>{926120CF-26DF-6C03-10B8-69B48EE17212}</Project>
+      <Name>Tayx.Graphy</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1404805401" Type="User" Language="SFX" Hash="{F7DFF944-2AB5-DC43-D9BC-27174997B4DB}">
+			<ShortName>doorOpen</ShortName>
+			<Path>doorOpen.bnk</Path>
+			<Media>
+				<File Id="649141958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoorOpen.wav</ShortName>
+					<CachePath>SFX/DoorOpen_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1404805401" Name="doorOpen" DurationType="OneShot" DurationMin="2.602086" DurationMax="2.602086">
+					<MediaRefs>
+						<MediaRef Id="649141958"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2108322741" Type="User" Language="SFX" Hash="{99842A85-220F-BA8A-4A12-C5CC82C2D0A0}">
+			<ShortName>keyPadPressed</ShortName>
+			<Path>keyPadPressed.bnk</Path>
+			<Media>
+				<File Id="324331803" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Keypad-Press.wav</ShortName>
+					<CachePath>SFX/Keypad-Press_20DA73BA.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2108322741" Name="keyPadPressed" DurationType="OneShot" DurationMin="0.21" DurationMax="0.21">
+					<MediaRefs>
+						<MediaRef Id="324331803"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4C29951A-27DC-BB7F-E0BB-D5C1FD695192}</FileHash>
+</SoundBanksInfo>

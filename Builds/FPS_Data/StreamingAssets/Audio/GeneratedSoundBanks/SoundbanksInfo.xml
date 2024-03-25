@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="2889316634" Type="User" Language="SFX" Hash="{CD387F31-82D2-1096-028A-89DF2E18E726}">
+			<ShortName>keyPadPress</ShortName>
+			<Path>keyPadPress.bnk</Path>
+			<Media>
+				<File Id="324331803" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Keypad-Press.wav</ShortName>
+					<CachePath>SFX/Keypad-Press_20DA73BA.wem</CachePath>
+				</File>
+				<File Id="649141958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoorOpen.wav</ShortName>
+					<CachePath>SFX/DoorOpen_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1404805401" Name="doorOpen" DurationType="OneShot" DurationMin="2.602086" DurationMax="2.602086">
+					<MediaRefs>
+						<MediaRef Id="649141958"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2889316634" Name="keyPadPress" DurationType="OneShot" DurationMin="0.21" DurationMax="0.21">
+					<MediaRefs>
+						<MediaRef Id="324331803"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3B51E889-948F-7EDA-A1E8-111109B087A1}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{4D4F17AB-5A1D-8732-59D4-55B0EC0E0D18}</FileHash>
+</SoundBanksInfo>

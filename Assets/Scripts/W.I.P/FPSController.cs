@@ -6,39 +6,18 @@ using UnityEngine.UI;
 
 public class FPSControl : MonoBehaviour
 {
-    public TMP_Text FPS;
-    bool Present = false;
-    private void Start()
-    {
-     //Making the FPS text inactive in the game's hierarchy
-        FPS.gameObject.SetActive(false);
-       
-    }
+    [SerializeField] private TMP_Text _fpsText;
+    [SerializeField] private float _hudRefreshRate = 1f;
+
+    private float _timer;
+
     private void Update()
     {
-        
-        if (Input.GetKey(KeyCode.LeftControl) && Input.GetKey(KeyCode.LeftControl) && Present == true)
+        if (Time.unscaledTime > _timer)
         {
-            Present = false;
-            Hide();
-            if (Input.GetKey(KeyCode.LeftControl) && Input.GetKey(KeyCode.LeftControl) && Present == false)
-            {
-                Present = true;
-                Show();
-            }
-       
+            int fps = (int)(1f / Time.unscaledDeltaTime);
+            _fpsText.text = "FPS: " + fps;
+            _timer = Time.unscaledTime + _hudRefreshRate;
         }
-    }
-    void Show()
-    {
-             FPS.gameObject.SetActive(true);
-        
-    }
-
-    void Hide()
-    {
-
-            FPS.gameObject.SetActive(false);
-        
     }
 }

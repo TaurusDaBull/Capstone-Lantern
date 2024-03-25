@@ -25,6 +25,9 @@ public class DoorOpenLV3 : MonoBehaviour
     public string PartB;
     public string PartC;
 
+    [Header("Door Objects")]
+    public GameObject[] cubes;
+    public TMP_Text[] arrows;
 
     private void Start()
     {
@@ -39,7 +42,7 @@ public class DoorOpenLV3 : MonoBehaviour
     {
         //Random function and number is generated between 4 and 8
         System.Random rnd = new System.Random();
-        int code = 9;
+        int code = 6;
         //Random number is used to create an integer array
         int[] Set = new int[code];
         //String builder is used to convert the integer array to a string
@@ -48,7 +51,7 @@ public class DoorOpenLV3 : MonoBehaviour
         for (int i = 0; i < Set.Length; i++)
         {
             //A random number is generated from 0 - 9
-            int x = rnd.Next(0, 9);
+            int x = rnd.Next(0, 6);
             //the number is set at postion 0
             Set[i] = x;
             //the String builed appends the numbers
@@ -57,9 +60,9 @@ public class DoorOpenLV3 : MonoBehaviour
         //the completed append string is than set to the Answer
         Answer = sb.ToString();
 
-        PartA = Answer.Substring(0, 3);
-        PartB = Answer.Substring(3, 3);
-        PartC = Answer.Substring(6, 3);
+        PartA = Answer.Substring(0, 2);
+        PartB = Answer.Substring(2, 2);
+        PartC = Answer.Substring(4, 2);
 
         Debug.Log("The passcode is: " + Answer);
         Debug.Log("Part 1 is: " + PartA + " Part 2 is: " +  PartB + " Part 3 is: " + PartC);
@@ -95,7 +98,11 @@ public class DoorOpenLV3 : MonoBehaviour
         if (Door == true)
         {
         Correct.Play();
-
+            GameObject.Destroy(cubes[0]);
+            GameObject.Destroy(cubes[1]);
+            GameObject.Destroy(cubes[2]);
+            GameObject.Destroy(arrows[0]);
+            GameObject.Destroy(arrows[1]);
         }
         return;      
         

@@ -42,8 +42,8 @@ Material:
     - _OutlineWidth: 0
     m_Colors:
     - MyColor: {r: 0.10588233, g: 0.14420286, b: 0.98039216, a: 1}
-    - MyLightDirection: {r: -0.9938471, g: -0.10504808, b: -0.035118174, a: 0}
-    - MyLightPosition: {r: -78.79906, g: 5.404917, b: -5.6759996, a: 0}
+    - MyLightDirection: {r: 0.07962087, g: -0.9961033, b: 0.03793764, a: 0}
+    - MyLightPosition: {r: -86.611626, g: 11.913227, b: -2.0402272, a: 0}
     - _Color: {r: 0.9811321, g: 0.087931626, b: 0.087931626, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

@@ -35,7 +35,7 @@ public class DoorOpen : MonoBehaviour
     {
         //Random function and number is generated between 4 and 8
         System.Random rnd = new System.Random();
-        int code = rnd.Next(4, 9);
+        int code = 4;
         //Random number is used to create an integer array
         int[] Set = new int[code];
         //String builder is used to convert the integer array to a string

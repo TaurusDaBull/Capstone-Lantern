@@ -24,8 +24,9 @@ public class ThrowLanternTrajectory : MonoBehaviour
     [SerializeField] private float ThrowForce = 10f;
     [SerializeField] private float MaxForce = 20f;
 
-    private void Start()
+    private void Start() //Run on start
     {
+        //Define Main Camera , Set the ready to throw bool to false and, set the trajectory line to false
         MainCamera = Camera.main;
         ReadyToThrow = false;
         TrajectoryLine.enabled = false;
@@ -33,13 +34,14 @@ public class ThrowLanternTrajectory : MonoBehaviour
 
     private void Update()
     {
+        //If the Lantern has been picked up
         if (LanternOnPlayer.activeInHierarchy == true)
         {
-            ReadyToThrow = true;
+            ReadyToThrow = true; //ready to throw becomes true
 
-            if (Input.GetKeyDown(ThrowKey) && ReadyToThrow == true)
+            if (Input.GetKeyDown(ThrowKey) && ReadyToThrow == true) //Press and hold the throw key (keyboard key = E)
             {
-                StartThrowing();
+                StartThrowing(); //Charge throw
             }
             if (IsCharging)
             {
@@ -54,15 +56,15 @@ public class ThrowLanternTrajectory : MonoBehaviour
     }
     void StartThrowing()
     {
-        IsCharging = true;
-        ChargeTime = 0f;
-        Lantern.SetActive(true);
-        TrajectoryLine.enabled = true;
+        IsCharging = true; //Set is charge bool to true to allow ChargeThrow()
+        ChargeTime = 0f; //Set charge time to 0
+        Lantern.SetActive(true); //Activate Lantern in hierarchy to take properties
+        TrajectoryLine.enabled = true; //draw the trajectory line
        
     }
     void ChargeThrow()
     {
-        ChargeTime += Time.deltaTime;
+        ChargeTime += Time.deltaTime;  //increase charge time by time amount held
 
         Vector3 LanternVelocity = (MainCamera.transform.forward + ThrowDistance).normalized * Mathf.Min(ChargeTime * ThrowForce, MaxForce);
         ShowTrajectory(ThrowPosition.position + ThrowPosition.forward, LanternVelocity);
