@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2165330516	lanternThud			\inGame\lanternThud	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	356804529	lanternThud	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\lanternThud_99786516.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\lanternThud		8968
+

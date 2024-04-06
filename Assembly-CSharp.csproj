@@ -59,40 +59,73 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MainMenu\startGame.cs" />
     <Compile Include="Assets\Scripts\W.I.P\FPSController.cs" />
     <Compile Include="Assets\Scripts\Next-Level(s)\NextLevel-2.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\LanternCapture.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\SpawnLanternLV1.cs" />
     <Compile Include="Assets\Scripts\Player\InputManager.cs" />
     <Compile Include="Assets\Scripts\Passcode\Reveal.cs" />
     <Compile Include="Assets\Scripts\Player\CursorLock.cs" />
+    <Compile Include="Assets\Scripts\Lantern Code\LanternCaptureLv4.cs" />
+    <Compile Include="Assets\Scripts\Player\FirstPersonController.cs" />
     <Compile Include="Assets\Input\Player Input.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\fadeToGame.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\startGameMain.cs" />
+    <Compile Include="Assets\FallBoxRespawn.cs" />
+    <Compile Include="Assets\Scripts\Passcode\DoorOpenLV4.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\ChangeColor.cs" />
+    <Compile Include="Assets\Easy Physics Surfaces\Scripts\AudioSourceExtension.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\SpawnLantern.cs" />
+    <Compile Include="Assets\Scripts\Lantern Code\PickUpLanternLvl3.cs" />
     <Compile Include="Assets\Scripts\Next-Level(s)\NextLevel-4.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\stopMainMenu.cs" />
+    <Compile Include="Assets\Scripts\Passcode\RevealMulti-PanelLV4.cs" />
+    <Compile Include="Assets\Easy Physics Surfaces\Scripts\PhysicsSurfaceData.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\beginGame.cs" />
     <Compile Include="Assets\Scripts\Passcode\Passcode Level 3\PasscodeLV3B.cs" />
+    <Compile Include="Assets\Ww_MaterialSwitch.cs" />
     <Compile Include="Assets\Scripts\W.I.P\RevealGrabber.cs" />
     <Compile Include="Assets\Scripts\RetiredCode\Throwing.cs" />
+    <Compile Include="Assets\Easy Physics Surfaces\Demo\Scripts\DemoCharacterController.cs" />
     <Compile Include="Assets\Scripts\Passcode\Passcode1.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\startButton.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\mainToLVL1.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\PickUpLantern.cs" />
+    <Compile Include="Assets\StandFloorRespawn.cs" />
     <Compile Include="Assets\Scripts\Passcode\Panels\Mimic.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\removeFade.cs" />
     <Compile Include="Assets\Scripts\W.I.P\PasscodeLV3.cs" />
     <Compile Include="Assets\Scripts\Player\CloseGame.cs" />
+    <Compile Include="Assets\Scripts\Passcode\Passcode Level 3\PasscodeLV4B.cs" />
+    <Compile Include="Assets\Easy Physics Surfaces\Scripts\PhysicsSurface.cs" />
+    <Compile Include="Assets\LanterThud.cs" />
     <Compile Include="Assets\Scripts\Passcode\Passcode Level 3\PasscodeLV3C.cs" />
     <Compile Include="Assets\Scripts\Passcode\DoorOpen.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMotor.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\ThrowLanternTrajectory.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
     <Compile Include="Assets\Scripts\Passcode\RevealMulti-Panel.cs" />
+    <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
     <Compile Include="Assets\Scripts\W.I.P\Multi-Panel.cs" />
+    <Compile Include="Assets\Scripts\Lantern Code\PickUpLanternLvl2.cs" />
     <Compile Include="Assets\Scripts\Next-Level(s)\NextLevel-3.cs" />
     <Compile Include="Assets\Scripts\Passcode\Passcode Level 3\PasscodeLV3A.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\W.I.P\PasscodeMultiPanel.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\MainMenuMusic.cs" />
     <Compile Include="Assets\Scripts\Passcode\Panels\Mimic 2.cs" />
+    <Compile Include="Assets\Scripts\Passcode\Passcode Level 2\Passcode Lvl 2.cs" />
     <Compile Include="Assets\Scripts\Passcode\DoorOpenLV3.cs" />
     <Compile Include="Assets\Scripts\Passcode\keyPress.cs" />
     <Compile Include="Assets\Scripts\Player\ShowFPS.cs" />
     <Compile Include="Assets\Scripts\Passcode\Panels\Mimic 3.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\endGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Textures\Reveal Text\RevealingShader.shader" />
@@ -129,6 +162,7 @@
     <None Include="Assets\WwiseSettings.xml" />
     <None Include="Assets\Graphy - Ultimate Stats Monitor\Font\Roboto\LICENSE.txt" />
     <None Include="Assets\Graphy - Ultimate Stats Monitor\Shaders\GraphStandard.shader" />
+    <None Include="Assets\Easy Physics Surfaces\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -807,6 +841,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{79C58B39-C702-3E7E-078D-B9E7DB5502E9}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="AK.Wwise.Unity.Timeline.csproj">
       <Project>{AFF8D8B6-9BDC-5F41-EDCD-97D3007259CC}</Project>
       <Name>AK.Wwise.Unity.Timeline</Name>

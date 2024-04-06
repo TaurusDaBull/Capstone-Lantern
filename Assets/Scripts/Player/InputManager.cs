@@ -28,6 +28,8 @@ public class InputManager : MonoBehaviour
     void FixedUpdate()
     {
         Motor.ProcessMove(OnFoot.Movement.ReadValue<Vector2>());
+        
+
     }
     private void LateUpdate ()
     {

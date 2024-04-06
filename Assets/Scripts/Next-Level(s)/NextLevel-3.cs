@@ -15,6 +15,6 @@ public class NextLevel3 : MonoBehaviour
         if (other.gameObject.tag == "Player")
             Debug.Log("Next Level");
         //ScreenManager will move the player to the next designated level
-        SceneManager.LoadScene("Lvl 3");
+        SceneManager.LoadScene("Lvl 3.2");
     }
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A7A2939-89D8-4A22-ABBF-E35FCBE38947}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="BGM" ID="{6A7A2939-89D8-4A22-ABBF-E35FCBE38947}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="inGameBGM" ID="{4C2A5DE3-79B0-4FA4-A75D-EF37EB7ACBEE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="inGame" ID="{5002C46E-63AF-4B58-A670-52C65105355D}" WorkUnitID="{DBCAA427-A587-4353-BF5F-6B239AC26F72}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

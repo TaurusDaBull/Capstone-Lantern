@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{880AB31C-01A4-47AE-B65C-193386A244E9}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{880AB31C-01A4-47AE-B65C-193386A244E9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{880AB31C-01A4-47AE-B65C-193386A244E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Main" ID="{1A449A9B-0079-4DC2-9C67-1B06F27BC749}">
+					<ChildrenList>
+						<State Name="idelInMainMenu" ID="{5753BCB0-BB0F-4FEC-9E24-30367D8428F7}"/>
+						<State Name="startingGame" ID="{698657E6-1F8B-4656-98B4-3E9176AE963F}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="idelInMainMenu" ID="{5753BCB0-BB0F-4FEC-9E24-30367D8428F7}"/>
+							<EndState Name="startingGame" ID="{698657E6-1F8B-4656-98B4-3E9176AE963F}"/>
+							<Time>2.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="inGame" ID="{B22510E5-D5D2-4F88-801B-835A0A5B26C0}">
+					<ChildrenList>
+						<State Name="None" ID="{2E7837D5-0FDF-4953-941D-F78045C4EFA0}"/>
+						<State Name="inGame" ID="{1276F332-E1EF-468B-B93C-0425A6FA322D}"/>
+						<State Name="levelTransition" ID="{8B48EF48-4B18-42F8-967F-D7911D80D706}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="inGame" ID="{1276F332-E1EF-468B-B93C-0425A6FA322D}"/>
+							<EndState Name="levelTransition" ID="{8B48EF48-4B18-42F8-967F-D7911D80D706}"/>
+							<Time>2.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="levelTransition" ID="{8B48EF48-4B18-42F8-967F-D7911D80D706}"/>
+							<EndState Name="inGame" ID="{1276F332-E1EF-468B-B93C-0425A6FA322D}"/>
+							<Time>2.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1553818165	doorUnlock			\inGame\doorUnlock	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3948262040	Octave_Down	Wwise Pitch Shifter			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	457400394	doorUnlock	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\doorUnlock_E8A8B96C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\doorUnlock		32757
+

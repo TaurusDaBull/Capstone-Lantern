@@ -50,30 +50,19 @@ public class Passcode1 : MonoBehaviour
 
     public void Update()
     {
-         
-     
         if (LanternOnPlayer.activeInHierarchy == true)
         {
-            
- 
             TextShown = true;
             if (TextShown == true && LightOnPlayer.color == CodeColors[LightColor])
             {
-                
-               
                 Passcode.text = KeyPad.GetComponent<DoorOpen>().Answer;
-             
-                
             }
             else
             {
                 Passcode.text = " ";
             }
-            
+
         }
 
-    }
-
- 
-
+    } 
 }

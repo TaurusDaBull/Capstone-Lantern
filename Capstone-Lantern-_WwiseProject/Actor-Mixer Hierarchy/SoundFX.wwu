@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95C23B48-DC02-42E8-8654-078B12A72307}" SchemaVersion="119" RootDocumentID="{F0E42161-897D-4609-BE66-E39EEEA723AA}" ParentDocumentID="{F0E42161-897D-4609-BE66-E39EEEA723AA}">
+	<AudioObjects>
+		<WorkUnit Name="SoundFX" ID="{95C23B48-DC02-42E8-8654-078B12A72307}" OwnerID="{F0E42161-897D-4609-BE66-E39EEEA723AA}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="mainMenuStart" ID="{6A694143-3037-4F99-A11E-443F410EB3A9}" ShortID="385584983">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-660</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="mainMenuStart" ID="{B5C4558F-93E6-4887-BCE9-B1F832A47444}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.181496096586783"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>mainMenuStart.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="28000963"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{A04316AA-9360-443A-80CA-F9F64666D062}" ShortID="220543077">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+												<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="mainMenuStart" ID="{B5C4558F-93E6-4887-BCE9-B1F832A47444}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Keypad-Press" ID="{9EB1521E-51DF-4BA6-9BA6-96B70C94B0AC}" ShortID="527479010">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Keypad-Press" ID="{68AC5FCF-0B5D-424B-8ED8-AE96A308FE2E}">
+							<PropertyList>
+								<Property Name="TrimEnd" Type="Real64" Value="0.21"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Keypad-Press.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="324331803"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Keypad-Press" ID="{68AC5FCF-0B5D-424B-8ED8-AE96A308FE2E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="doorOpen" ID="{45182E9A-EB32-4F0A-8239-2CF8ACD0ADF7}" ShortID="3072081">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DoorOpen" ID="{8F43B404-40D6-4FE3-8F17-282DB73CB166}">
+							<Language>SFX</Language>
+							<AudioFile>DoorOpen.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="649141958"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DoorOpen" ID="{8F43B404-40D6-4FE3-8F17-282DB73CB166}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="keyPadFail" ID="{E1440099-F44D-4E1D-8493-8735A9DEACEC}" ShortID="198516621">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="keyPadFail" ID="{1A20420D-7E7F-45B5-AC84-67733CC3625A}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.141086691086691"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.74148894315561"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>keyPadFail.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="386275828"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{B52F2A8E-BAA8-4590-852D-22004FAB6853}" ShortID="735391126">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+												<ObjectRef Name="Chipmunk" ID="{54F9F04F-0D14-46AB-B38B-21CFD2EB46F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="keyPadFail" ID="{1A20420D-7E7F-45B5-AC84-67733CC3625A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="lanternPickUp" ID="{ED1FCB60-0AC2-4C89-8FDF-9CDC1A9B178D}" ShortID="460983915">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="lanternPickUp" ID="{82C07BE2-E45B-43DA-97BB-3B7296179714}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="13.9042671696371"/>
+								<Property Name="TrimEnd" Type="Real64" Value="14.6623328176463"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>lanternPickUp.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1030498840"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="lanternPickUp" ID="{82C07BE2-E45B-43DA-97BB-3B7296179714}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="keyPadSuccess" ID="{6A9D46BB-FBDE-4CF5-BAF2-CBCCBEA2FFD7}" ShortID="707506564">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="keyPadSuccess" ID="{3BE885E1-3536-4B37-9D80-B863BAA59777}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.86394286489525"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>keyPadSuccess.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="394388474"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="keyPadSuccess" ID="{3BE885E1-3536-4B37-9D80-B863BAA59777}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="doorUnlock" ID="{5125E293-D160-4893-8FCD-E4B5FDC41F43}" ShortID="676377546">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="doorUnlock" ID="{C27FCB7D-DB42-49C0-9AA5-2DF0F350644E}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="3.44522566476733"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.39650391737892"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>doorUnlock.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="457400394"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{52AF7C1F-76F0-4F24-98E1-8A535A29D237}" ShortID="449486276">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+												<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="doorUnlock" ID="{C27FCB7D-DB42-49C0-9AA5-2DF0F350644E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="doorCreak" ID="{8501731A-8653-4419-887B-93FC381BE688}" ShortID="650177120">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="doorCreak" ID="{CBEF3A63-A534-43DE-B196-1753088AC89A}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="2.792466969343"/>
+								<Property Name="TrimEnd" Type="Real64" Value="7.88951749682428"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>doorCreak.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="199641394"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{03004AE1-08BA-4BE7-AA1E-386488448BDE}" ShortID="614593336">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+												<ObjectRef Name="Octave_Down" ID="{062EC4B1-5372-4D1E-917B-C757293F2B42}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="doorCreak" ID="{CBEF3A63-A534-43DE-B196-1753088AC89A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="lanternThud" ID="{2FFACE93-EE14-42A1-A37C-5642FE65729A}" ShortID="254820600">
+					<PropertyList>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="lanternThud" ID="{91A05DA0-1362-4AA9-BC4B-DA7625634FDD}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.154188034188034"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.845698005698008"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>lanternThud.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="356804529"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="lanternThud" ID="{91A05DA0-1362-4AA9-BC4B-DA7625634FDD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

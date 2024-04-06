@@ -10,11 +10,13 @@ public class PickUpLantern : MonoBehaviour
 
     public GameObject LanternOnPlayer;
     public TMP_Text pickUp;
+    public AK.Wwise.Event lanternPickUp;
+    public GameObject LanternInstructions;
 
     void Start()
     {
         LanternOnPlayer.SetActive(false);
-
+        LanternInstructions.SetActive(false);
     }
 
     private void OnTriggerStay(Collider other)
@@ -25,6 +27,8 @@ public class PickUpLantern : MonoBehaviour
 
             if (Input.GetMouseButton(1))
             {
+                AkSoundEngine.PostEvent("lanternPickUp", gameObject);
+                Invoke("LanternInstruct", 1);
                 this.gameObject.SetActive(false);
                 LanternOnPlayer.SetActive(true);
                 pickUp.text = " ";
@@ -39,5 +43,9 @@ public class PickUpLantern : MonoBehaviour
         pickUp.text = " ";
     }
 
+    private void LanternInstruct()
+    {
+        LanternInstructions.SetActive(true);
+    }
 
 }

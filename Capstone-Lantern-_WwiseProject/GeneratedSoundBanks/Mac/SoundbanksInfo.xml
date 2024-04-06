@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1A4355F6-176F-7E5F-84E3-3D8BBD322830}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,8 +21,20 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="3604647259" Name="MainMenu"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3161908922" Name="Main">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1300063251" Name="startingGame"/>
+						<State Id="2707144702" Name="idelInMainMenu"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1404805401" Type="User" Language="SFX" Hash="{A006D136-A75E-141F-E484-781ED1F438C6}">
+		<SoundBank Id="1404805401" Type="User" Language="SFX" Hash="{F7DFF944-2AB5-DC43-D9BC-27174997B4DB}">
 			<ShortName>doorOpen</ShortName>
 			<Path>doorOpen.bnk</Path>
 			<Media>
@@ -32,16 +44,16 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2122995345" Name="openDoor" DurationType="OneShot" DurationMin="2.602086" DurationMax="2.602086">
+				<Event Id="1404805401" Name="doorOpen" DurationType="OneShot" DurationMin="2.602086" DurationMax="2.602086">
 					<MediaRefs>
 						<MediaRef Id="649141958"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2889316634" Type="User" Language="SFX" Hash="{364336C7-1EB9-286E-6A70-A9305E8DD34C}">
-			<ShortName>keyPadPress</ShortName>
-			<Path>keyPadPress.bnk</Path>
+		<SoundBank Id="2108322741" Type="User" Language="SFX" Hash="{99842A85-220F-BA8A-4A12-C5CC82C2D0A0}">
+			<ShortName>keyPadPressed</ShortName>
+			<Path>keyPadPressed.bnk</Path>
 			<Media>
 				<File Id="324331803" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Keypad-Press.wav</ShortName>
@@ -57,5 +69,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DCF75B72-782C-CE1F-54FF-D3F904197FE8}</FileHash>
+	<FileHash>{49ABC25D-AE6B-4E4E-1161-7ADAA40A9FB8}</FileHash>
 </SoundBanksInfo>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="inGame" ID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="BGM" ID="{EF11E15E-0862-433E-A135-3A883334F85C}">
+					<ChildrenList>
+						<Action Name="" ID="{3CCEB02A-E741-41BF-941C-750BE4703A78}" ShortID="741064526">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="inGame" ID="{5002C46E-63AF-4B58-A670-52C65105355D}" WorkUnitID="{DBCAA427-A587-4353-BF5F-6B239AC26F72}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8B39BCAC-E9D9-4AC5-85BD-4EE2B353E616}" ShortID="711424114">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="inGame" ID="{1276F332-E1EF-468B-B93C-0425A6FA322D}" WorkUnitID="{880AB31C-01A4-47AE-B65C-193386A244E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="walkingStone" ID="{8BF82C8A-9178-457E-BED2-681505B9110C}">
+					<ChildrenList>
+						<Action Name="" ID="{BAF39A3C-A879-40D9-AA6E-2C11534707E2}" ShortID="555684652">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walking" ID="{1BEE1779-F4B0-434F-B14A-7930777F322A}" WorkUnitID="{076B0331-B057-46F7-9CCC-2074DA5C4417}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="keypadFail" ID="{6A6DDA74-077F-416B-9FE3-805FB7D9722A}">
+					<ChildrenList>
+						<Action Name="" ID="{AFAA82C4-2705-4DB9-9237-38D11AD79575}" ShortID="237144303">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="keyPadFail" ID="{E1440099-F44D-4E1D-8493-8735A9DEACEC}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lanternPickUp" ID="{2B31BAE6-6FAB-4C95-B6C8-013C59CD5BFC}">
+					<ChildrenList>
+						<Action Name="" ID="{FBF3046B-2777-4C43-9F22-3913FB06C60B}" ShortID="660583549">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lanternPickUp" ID="{ED1FCB60-0AC2-4C89-8FDF-9CDC1A9B178D}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="keypadSuccess" ID="{DD7E9354-DC9A-469E-B1CE-EEDF8E810AB7}">
+					<ChildrenList>
+						<Action Name="" ID="{5C2DDDF9-DEFB-479E-BF88-0939F7F17685}" ShortID="459879949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="keyPadSuccess" ID="{6A9D46BB-FBDE-4CF5-BAF2-CBCCBEA2FFD7}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="doorUnlock" ID="{8EFA05A1-6C91-44ED-A858-48633D53FC87}">
+					<ChildrenList>
+						<Action Name="" ID="{486C9921-9A68-4170-8A89-9460494094D2}" ShortID="548999089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="doorUnlock" ID="{5125E293-D160-4893-8FCD-E4B5FDC41F43}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="doorCreak" ID="{2FAC3BF5-860E-4E4B-B29E-3FC2B7E66DA9}">
+					<ChildrenList>
+						<Action Name="" ID="{5396973A-3613-498B-BBDF-C831F997E036}" ShortID="202491438">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="doorCreak" ID="{8501731A-8653-4419-887B-93FC381BE688}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lanternThud" ID="{8E106112-D83D-4892-A102-51D6E0439ACB}">
+					<ChildrenList>
+						<Action Name="" ID="{AAE7F595-3A86-4A2C-8F51-4036168AA3DC}" ShortID="577162212">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lanternThud" ID="{2FFACE93-EE14-42A1-A37C-5642FE65729A}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

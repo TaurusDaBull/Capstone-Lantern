@@ -14,15 +14,14 @@ public class ThrowLanternTrajectory : MonoBehaviour
     [SerializeField] private Vector3 ThrowDistance = new Vector3(0, 1, 0);
     [Header("Trajectory Settings")]
     [SerializeField] private LineRenderer TrajectoryLine;
-
     private bool IsCharging;
     private float ChargeTime = 0f;
     private bool ReadyToThrow;
-
-
     [Header("Lantern Force")]
     [SerializeField] private float ThrowForce = 10f;
     [SerializeField] private float MaxForce = 20f;
+    private bool onceRespawn;
+    private int x = 0;
 
     private void Start() //Run on start
     {
@@ -30,6 +29,8 @@ public class ThrowLanternTrajectory : MonoBehaviour
         MainCamera = Camera.main;
         ReadyToThrow = false;
         TrajectoryLine.enabled = false;
+        onceRespawn = false;
+    
     }
 
     private void Update()
@@ -76,7 +77,12 @@ public class ThrowLanternTrajectory : MonoBehaviour
         TrajectoryLine.enabled = false;
         Lantern.SetActive(false);
         ReadyToThrow = false;
-
+        if (onceRespawn == false)
+        {
+          
+            Invoke("lanternThrown", 1);
+            onceRespawn = true;
+        }
     }
     private void ThrowLantern(float force)
     {
@@ -101,6 +107,16 @@ public class ThrowLanternTrajectory : MonoBehaviour
             points[i] = origin + speed * time + 0.5f * Physics.gravity * time * time;
         }
         TrajectoryLine.SetPositions(points);
+    }
+
+    void lanternThrown()
+    {
+
+        x = + 1;
+        Debug.Log(x);
+        Debug.Log("Lantern has been thrown");
+        //Insert Animation for respawn here
+        
     }
 
 }

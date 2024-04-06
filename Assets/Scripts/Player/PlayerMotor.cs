@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMotor : MonoBehaviour
 {
@@ -10,13 +13,13 @@ public class PlayerMotor : MonoBehaviour
     private bool isGrounded;
     public float gravity = -50f;
     public float jumpHeight = 3f;
-    // Start is called before the first frame update
+ 
     void Start()
     {
         controller = GetComponent<CharacterController>();
     }
 
-    // Update is called once per frame
+ 
     void Update()
     {
         isGrounded = controller.isGrounded;
@@ -35,14 +38,30 @@ public class PlayerMotor : MonoBehaviour
             playerVelocity.y = -2f;
         }
         controller.Move(playerVelocity * Time.deltaTime);
-       
+        float x;
+        float y;
+        x =+ Vector3.Distance(playerVelocity, moveDirection);
+        y =+ moveDirection.z;
+        if (y > 0)
+        {
+          
+           // AkSoundEngine.PostEvent("walkingStone", gameObject);
+        }
+        Debug.Log("Distance:" + Time.frameCount);
     }
     public void Jump()
     {
         if (isGrounded)
         {
             playerVelocity.y = Mathf.Sqrt(jumpHeight * -2.0f * gravity);
+           
         }
     }
-    
+
+
+
+ 
+
+
+
 }

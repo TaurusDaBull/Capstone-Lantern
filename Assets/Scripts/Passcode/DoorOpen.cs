@@ -7,27 +7,33 @@ using UnityEngine;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 
 public class DoorOpen : MonoBehaviour
 {
     public GameObject Player;
     public GameObject KeyPad;
-    public AudioSource Press;
     public TMP_Text Code;
     public TMP_Text UseKeyPad;
-    public AK.Wwise.Event Correct;
+    public Light LockLight;
+    [Header("Sound Effects")]
+    public AK.Wwise.Event Success;
+    public AK.Wwise.Event Fail;
+    public AK.Wwise.Event Unlock;
+    public AK.Wwise.Event Creak;
 
     public Animator Door;
     public string Answer;
     public GameObject[] objs;
+    
 
     private void Start()
     {
-       
+        LockLight.color = Color.red;
         SetCode();
         //The door animtion will be set to idle in the shut postion at the start of the game
-        Door.SetBool("Idle", true);
+        Door.SetBool("doorSwing", false);
         //The keypad GUI is set to inactive at the start of the game
         KeyPad.GetComponentInChildren<Canvas>().enabled = false;
     }
@@ -80,11 +86,12 @@ public class DoorOpen : MonoBehaviour
     }
     private void OpenDoor()
     {
-        Door.SetBool("Open", true);
-        Door.SetBool("Idle", false);
+       
+       
         if (Door == true)
         {
-            AkSoundEngine.PostEvent("doorOpen", gameObject);
+            LockLight.color = Color.green;
+            AkSoundEngine.PostEvent("doorCreak", gameObject);
 
         }
         return;      
@@ -101,31 +108,25 @@ public class DoorOpen : MonoBehaviour
         }
 
     }
-    public void PlaySound()
-    {
 
-        Press.Play();
-
-    }
     public void Clear()
     {
         Code.text = string.Empty;
-        Code.color = Color.black;
-      OnEnable();
+        Code.faceColor = Color.black;
+        Code.outlineColor = Color.black;
+        OnEnable();
     }
 
     private void StopPlayer()
     {
-        Player.GetComponent<PlayerMotor>().speed = 0;
-        Player.GetComponent<PlayerLook>().xSensitivity = 0;
-        Player.GetComponent<PlayerLook>().ySensitivity = 0;
+        Player.gameObject.GetComponent<FirstPersonController>().enabled = false;
+        Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
     public void ResumePlayer()
     {
-        Player.GetComponent<PlayerMotor>().speed = 50;
-        Player.GetComponent<PlayerLook>().xSensitivity = 30;
-        Player.GetComponent<PlayerLook>().ySensitivity = 30;
+        Player.gameObject.GetComponent<FirstPersonController>().enabled = true;
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         Clear();
         KeyPadOff();
@@ -153,19 +154,25 @@ public class DoorOpen : MonoBehaviour
             //Open Door
             //Display Correct
             Code.text = "Correct";
-            Code.color = Color.green;
-            
+            Code.faceColor = Color.green;
+            Code.outlineColor = Color.green;
+            AkSoundEngine.PostEvent("keypadSuccess", gameObject);
+
             //Resume Player after 1 second
-            Invoke("OpenDoor", 1);
-            Invoke("ResumePlayer", 1);
+            AkSoundEngine.PostEvent("doorUnlock", gameObject);
+            Invoke("OpenDoor", 2);
+            Invoke("ResumePlayer", 2);
+            Door.SetBool("doorSwing", true);
         }  
         else
         {
             Clear();
             OnDisable();
             Code.text = "Incorrect";
-            Code.color = Color.red;
-           
+            Code.faceColor = Color.red;
+            Code.outlineColor = Color.red;
+            AkSoundEngine.PostEvent("keypadFail", gameObject);
+
         }
     }
     public void OnDisable()

@@ -11,15 +11,7 @@ public class SpawnLanternLV1 : MonoBehaviour
     public GameObject LanternOnPlatform;
     public TMP_Text pickUp;
 
-    private void Start()
-    {
-       
-    }
 
-    private void Update()
-    {
-     
-    }
     private void OnTriggerStay(Collider other)
     {
         if (LanternOnStand.activeInHierarchy == false && LanternOnPlayer.activeInHierarchy == false)
@@ -30,8 +22,6 @@ public class SpawnLanternLV1 : MonoBehaviour
             {
                 LanternOnStand.gameObject.SetActive(true);
                 Destroy(GameObject.Find("Lantern (Stand)(Clone)"));
-             
-
 
 
             }

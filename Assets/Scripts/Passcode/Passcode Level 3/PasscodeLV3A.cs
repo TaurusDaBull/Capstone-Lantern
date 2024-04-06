@@ -43,7 +43,7 @@ public class PasscodeLV3A : MonoBehaviour
             {
 
 
-                Passcodes.text = KeyPad.GetComponent<DoorOpenLV3>().PartA;
+                Passcodes.text = KeyPad.GetComponent<DoorOpenLV4>().PartA;
 
 
             }

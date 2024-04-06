@@ -55,6 +55,33 @@ MonoBehaviour:
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
   BankWwu:
+  - PhysicalPath: SoundBanks\BGM.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: BGM
+      ObjectType: 12
+      guid: 39297a6ad889224aabbfe35fcbe38947
+    ParentPath: SoundBanks\BGM
+    guid: 39297a6ad889224aabbfe35fcbe38947
+    GuidInternal: 
+    m_lastTime: -8584897539065362686
+    List:
+    - name: inGameBGM
+      guid: e35d2a4cb079a44fa75def37eb7acbee
+      id: 1893515252
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: BGM
+        ObjectType: 12
+        guid: 39297a6ad889224aabbfe35fcbe38947
+      - ElementName: inGameBGM
+        ObjectType: 7
+        guid: e35d2a4cb079a44fa75def37eb7acbee
+      Path: SoundBanks\BGM\inGameBGM
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -66,7 +93,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b7260d2cb710ca4e9deecf45c1c378be
     GuidInternal: 
-    m_lastTime: -8584942295798697803
+    m_lastTime: -8584897805029818326
     List:
     - name: doorOpen
       guid: b01c8084c96e374f8928c0ddc553fcb4
@@ -96,6 +123,144 @@ MonoBehaviour:
         ObjectType: 7
         guid: f6b7aa37fffc4448bf21ccec4cb4d0ef
       Path: SoundBanks\Default Work Unit\keyPadPressed
+  - PhysicalPath: SoundBanks\inGame.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: inGame
+      ObjectType: 12
+      guid: 2e73eb4f66eb4348a91752d7bd59faa8
+    ParentPath: SoundBanks\inGame
+    guid: 2e73eb4f66eb4348a91752d7bd59faa8
+    GuidInternal: 
+    m_lastTime: -8584895964367325517
+    List:
+    - name: doorCreak
+      guid: e4415aff69b1874b92e472d8f329115d
+      id: 227958399
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: doorCreak
+        ObjectType: 7
+        guid: e4415aff69b1874b92e472d8f329115d
+      Path: SoundBanks\inGame\doorCreak
+    - name: doorUnlock
+      guid: 6eb5a49a8d9156469290c9fe4efda64c
+      id: 1553818165
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: doorUnlock
+        ObjectType: 7
+        guid: 6eb5a49a8d9156469290c9fe4efda64c
+      Path: SoundBanks\inGame\doorUnlock
+    - name: keypadFail
+      guid: 0b0b7c178868a64c84f3e5ff69d2622a
+      id: 2411561249
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: keypadFail
+        ObjectType: 7
+        guid: 0b0b7c178868a64c84f3e5ff69d2622a
+      Path: SoundBanks\inGame\keypadFail
+    - name: keypadSuccess
+      guid: b57617816ca65d4186e2c97982a4505e
+      id: 2353527262
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: keypadSuccess
+        ObjectType: 7
+        guid: b57617816ca65d4186e2c97982a4505e
+      Path: SoundBanks\inGame\keypadSuccess
+    - name: lanternPickUp
+      guid: 009f2cea616c20419480b887403230c1
+      id: 1546523411
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: lanternPickUp
+        ObjectType: 7
+        guid: 009f2cea616c20419480b887403230c1
+      Path: SoundBanks\inGame\lanternPickUp
+    - name: walkingStone
+      guid: d8c967156a1127489b85070de1da7a87
+      id: 881533257
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: walkingStone
+        ObjectType: 7
+        guid: d8c967156a1127489b85070de1da7a87
+      Path: SoundBanks\inGame\walkingStone
+  - PhysicalPath: SoundBanks\MainMenu.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: MainMenu
+      ObjectType: 12
+      guid: 1dc8c89b5a95b745a9047bbfb939a688
+    ParentPath: SoundBanks\MainMenu
+    guid: 1dc8c89b5a95b745a9047bbfb939a688
+    GuidInternal: 
+    m_lastTime: -8584897444192440887
+    List:
+    - name: startButton
+      guid: bcf992f1c4f3f041a4911d39316ca635
+      id: 1651515387
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainMenu
+        ObjectType: 12
+        guid: 1dc8c89b5a95b745a9047bbfb939a688
+      - ElementName: startButton
+        ObjectType: 7
+        guid: bcf992f1c4f3f041a4911d39316ca635
+      Path: SoundBanks\MainMenu\startButton
+    - name: titleMusic
+      guid: ce6db565ee99b74c85b930a3cc8f8e4b
+      id: 2191159630
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MainMenu
+        ObjectType: 12
+        guid: 1dc8c89b5a95b745a9047bbfb939a688
+      - ElementName: titleMusic
+        ObjectType: 7
+        guid: ce6db565ee99b74c85b930a3cc8f8e4b
+      Path: SoundBanks\MainMenu\titleMusic
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -108,7 +273,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ca950b3736828647adebcb9a8b06a07f
     GuidInternal: 
-    m_lastTime: -8584942295798829224
+    m_lastTime: -8584896728532019344
     List:
     - name: doorOpen
       guid: 6ff978bdd2db1341879856be28962da0
@@ -144,6 +309,185 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.21
       minDuration: 0.21
+  - PhysicalPath: Events\inGame.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: inGame
+      ObjectType: 12
+      guid: 5a57cf2957508340bc5cdd78745cb15c
+    ParentPath: Events\inGame
+    guid: 5a57cf2957508340bc5cdd78745cb15c
+    GuidInternal: 
+    m_lastTime: -8584895964367193294
+    List:
+    - name: BGM
+      guid: 5ee111ef62083e43a1353a883334f85c
+      id: 412724365
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: BGM
+        ObjectType: 3
+        guid: 5ee111ef62083e43a1353a883334f85c
+      Path: Events\inGame\BGM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: doorCreak
+      guid: f53bac2f0e864b4eb29e3fc2b7e66da9
+      id: 227958399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: doorCreak
+        ObjectType: 3
+        guid: f53bac2f0e864b4eb29e3fc2b7e66da9
+      Path: Events\inGame\doorCreak
+      maxAttenuation: 0
+      maxDuration: 5.0970507
+      minDuration: 5.0970507
+    - name: doorUnlock
+      guid: a105fa8e916ced44a85848633d53fc87
+      id: 1553818165
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: doorUnlock
+        ObjectType: 3
+        guid: a105fa8e916ced44a85848633d53fc87
+      Path: Events\inGame\doorUnlock
+      maxAttenuation: 0
+      maxDuration: 1.9512782
+      minDuration: 1.9512782
+    - name: keypadFail
+      guid: 74da6d6a7f076b419fe3805fb7d9722a
+      id: 2411561249
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: keypadFail
+        ObjectType: 3
+        guid: 74da6d6a7f076b419fe3805fb7d9722a
+      Path: Events\inGame\keypadFail
+      maxAttenuation: 0
+      maxDuration: 0.60040224
+      minDuration: 0.60040224
+    - name: keypadSuccess
+      guid: 54937edd9adc9e46b1ceeedf8e810ab7
+      id: 2353527262
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: keypadSuccess
+        ObjectType: 3
+        guid: 54937edd9adc9e46b1ceeedf8e810ab7
+      Path: Events\inGame\keypadSuccess
+      maxAttenuation: 0
+      maxDuration: 4.863943
+      minDuration: 4.863943
+    - name: lanternPickUp
+      guid: e6ba312bab6f954cb6c8013c59cd5bfc
+      id: 1546523411
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: lanternPickUp
+        ObjectType: 3
+        guid: e6ba312bab6f954cb6c8013c59cd5bfc
+      Path: Events\inGame\lanternPickUp
+      maxAttenuation: 0
+      maxDuration: 0.75806564
+      minDuration: 0.75806564
+    - name: walkingStone
+      guid: 8a2cf88b78917e45bed2681505b9110c
+      id: 881533257
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: walkingStone
+        ObjectType: 3
+        guid: 8a2cf88b78917e45bed2681505b9110c
+      Path: Events\inGame\walkingStone
+      maxAttenuation: 0
+      maxDuration: 0.46162522
+      minDuration: 0.2878369
+  - PhysicalPath: Events\Menu.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Menu
+      ObjectType: 12
+      guid: ebef1118788e214e93934bc49538bd0e
+    ParentPath: Events\Menu
+    guid: ebef1118788e214e93934bc49538bd0e
+    GuidInternal: 
+    m_lastTime: -8584897444192694035
+    List:
+    - name: Play
+      guid: 87171e215e47844989f78518c81c80a0
+      id: 1256202815
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Menu
+        ObjectType: 12
+        guid: ebef1118788e214e93934bc49538bd0e
+      - ElementName: Play
+        ObjectType: 3
+        guid: 87171e215e47844989f78518c81c80a0
+      Path: Events\Menu\Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Start
+      guid: c6aa67c768f2d644b37c5c716946d7b4
+      id: 1281810935
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Menu
+        ObjectType: 12
+        guid: ebef1118788e214e93934bc49538bd0e
+      - ElementName: Start
+        ObjectType: 3
+        guid: c6aa67c768f2d644b37c5c716946d7b4
+      Path: Events\Menu\Start
+      maxAttenuation: 0
+      maxDuration: 4.4253573
+      minDuration: 4.4253573
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -156,7 +500,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e92fb1496be0ff46944d759b19927952
     GuidInternal: 
-    m_lastTime: -8584943240154736711
+    m_lastTime: -8584897805030174353
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -170,8 +514,124 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 1cb30a88a401ae47b65c193386a244e9
     GuidInternal: 
-    m_lastTime: -8584943240154615743
-    List: []
+    m_lastTime: -8584897444192562812
+    List:
+    - name: inGame
+      guid: e51025b2d2d5884f801b835a0a5b26c0
+      id: 984691642
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1cb30a88a401ae47b65c193386a244e9
+      - ElementName: inGame
+        ObjectType: 9
+        guid: e51025b2d2d5884f801b835a0a5b26c0
+      Path: States\Default Work Unit\inGame
+      values:
+      - name: inGame
+        guid: 32f37612efe18b46b93c0425a6fa322d
+        id: 984691642
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1cb30a88a401ae47b65c193386a244e9
+        - ElementName: inGame
+          ObjectType: 9
+          guid: e51025b2d2d5884f801b835a0a5b26c0
+        - ElementName: inGame
+          ObjectType: 8
+          guid: 32f37612efe18b46b93c0425a6fa322d
+      - name: levelTransition
+        guid: 48ef488b184bf842967fd7911d80d706
+        id: 4198606512
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1cb30a88a401ae47b65c193386a244e9
+        - ElementName: inGame
+          ObjectType: 9
+          guid: e51025b2d2d5884f801b835a0a5b26c0
+        - ElementName: levelTransition
+          ObjectType: 8
+          guid: 48ef488b184bf842967fd7911d80d706
+      - name: None
+        guid: d537782edf0f5349941df78045c4efa0
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1cb30a88a401ae47b65c193386a244e9
+        - ElementName: inGame
+          ObjectType: 9
+          guid: e51025b2d2d5884f801b835a0a5b26c0
+        - ElementName: None
+          ObjectType: 8
+          guid: d537782edf0f5349941df78045c4efa0
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Main
+      guid: 9b9a441a7900c24d9c671b06f27bc749
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1cb30a88a401ae47b65c193386a244e9
+      - ElementName: Main
+        ObjectType: 9
+        guid: 9b9a441a7900c24d9c671b06f27bc749
+      Path: States\Default Work Unit\Main
+      values:
+      - name: idelInMainMenu
+        guid: b0bc53570fbbec4f9e2430367d8428f7
+        id: 2707144702
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1cb30a88a401ae47b65c193386a244e9
+        - ElementName: Main
+          ObjectType: 9
+          guid: 9b9a441a7900c24d9c671b06f27bc749
+        - ElementName: idelInMainMenu
+          ObjectType: 8
+          guid: b0bc53570fbbec4f9e2430367d8428f7
+      - name: startingGame
+        guid: e65786698b1f564698b43e9176ae963f
+        id: 1300063251
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1cb30a88a401ae47b65c193386a244e9
+        - ElementName: Main
+          ObjectType: 9
+          guid: 9b9a441a7900c24d9c671b06f27bc749
+        - ElementName: startingGame
+          ObjectType: 8
+          guid: e65786698b1f564698b43e9176ae963f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -184,8 +644,42 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 6c62ae175bd94549860e40d21c799037
     GuidInternal: 
-    m_lastTime: -8584943240155315066
-    List: []
+    m_lastTime: -8584897539065518363
+    List:
+    - name: Footsteps
+      guid: f49987856525d04d801fb6ec25539e9f
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6c62ae175bd94549860e40d21c799037
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: f49987856525d04d801fb6ec25539e9f
+      Path: Switches\Default Work Unit\Footsteps
+      values:
+      - name: stone
+        guid: 33076ff1f9c1c84cad533c85170d3721
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6c62ae175bd94549860e40d21c799037
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: f49987856525d04d801fb6ec25539e9f
+        - ElementName: stone
+          ObjectType: 10
+          guid: 33076ff1f9c1c84cad533c85170d3721
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -198,10 +692,24 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 98259d56986d054cacb9d23a242f204a
     GuidInternal: 
-    m_lastTime: -8584943240154335212
-    List: []
+    m_lastTime: -8584901266812866185
+    List:
+    - name: New_Trigger
+      guid: 254ba4aa10f7b2468f2a8441c4a90cf3
+      id: 4163741908
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 98259d56986d054cacb9d23a242f204a
+      - ElementName: New_Trigger
+        ObjectType: 14
+        guid: 254ba4aa10f7b2468f2a8441c4a90cf3
+      Path: Triggers\Default Work Unit\New_Trigger
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 020000000400000006000000070000000c0000000d0000002c0000002d000000
+  ExpandedWaapiItemIds: 0400000006000000070000000a0000000c0000000d0000000f00000011000000130000001400000015000000160000001700000018000000190000001a0000001c0000001d0000001e0000001f0000002000000021000000220000002d0000003300000037000000ff8e0300e2b90400b69e1000
   AutoSyncSelection: 0
   autoPopulateEnabled: 0
   currentDataSource: 0

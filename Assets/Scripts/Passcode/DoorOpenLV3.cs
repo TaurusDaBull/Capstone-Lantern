@@ -6,15 +6,22 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 
 public class DoorOpenLV3 : MonoBehaviour
 {
     public GameObject Player;
     public GameObject KeyPad;
-    public AudioSource Correct;
     public TMP_Text Code;
     public TMP_Text UseKeyPad;
+    public Light LockLight;
+
+    [Header("Sound Effects")]
+    public AK.Wwise.Event Success;
+    public AK.Wwise.Event Fail;
+    public AK.Wwise.Event Unlock;
+    public AK.Wwise.Event Creak;
 
     public Animator Door;
     public string Answer;
@@ -31,10 +38,10 @@ public class DoorOpenLV3 : MonoBehaviour
 
     private void Start()
     {
-       
+        LockLight.color = Color.red;
         SetCode();
         //The door animtion will be set to idle in the shut postion at the start of the game
-        Door.SetBool("Idle", true);
+        Door.SetBool("doorSwing", false);
         //The keypad GUI is set to inactive at the start of the game
         KeyPad.GetComponentInChildren<Canvas>().enabled = false;
     }
@@ -93,16 +100,19 @@ public class DoorOpenLV3 : MonoBehaviour
     }
     private void OpenDoor()
     {
-        Door.SetBool("Open", true);
-        Door.SetBool("Idle", false);
+   
         if (Door == true)
         {
-        Correct.Play();
-            GameObject.Destroy(cubes[0]);
-            GameObject.Destroy(cubes[1]);
-            GameObject.Destroy(cubes[2]);
-            GameObject.Destroy(arrows[0]);
-            GameObject.Destroy(arrows[1]);
+            LockLight.color = Color.green;
+            AkSoundEngine.PostEvent("doorCreak", gameObject);
+            for (int i = 0; i < cubes.Length; i++)
+            {
+                GameObject.Destroy(cubes[i]);
+            }
+            for (int i = 0; i < arrows.Length; i++)
+            {
+                GameObject.Destroy(arrows[i]);
+            }
         }
         return;      
         
@@ -121,21 +131,21 @@ public class DoorOpenLV3 : MonoBehaviour
     public void Clear()
     {
         Code.text = string.Empty;
-      OnEnable();
+        Code.faceColor = Color.black;
+        Code.outlineColor = Color.black;
+        OnEnable();
     }
 
     private void StopPlayer()
     {
-        Player.GetComponent<PlayerMotor>().speed = 0;
-        Player.GetComponent<PlayerLook>().xSensitivity = 0;
-        Player.GetComponent<PlayerLook>().ySensitivity = 0;
+        Player.gameObject.GetComponent<FirstPersonController>().enabled = false;
+        Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
     public void ResumePlayer()
     {
-        Player.GetComponent<PlayerMotor>().speed = 50;
-        Player.GetComponent<PlayerLook>().xSensitivity = 30;
-        Player.GetComponent<PlayerLook>().ySensitivity = 30;
+        Player.gameObject.GetComponent<FirstPersonController>().enabled = true;
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         Clear();
         KeyPadOff();
@@ -160,14 +170,26 @@ public class DoorOpenLV3 : MonoBehaviour
         guess = Code.text;
         if (guess == Answer)
         {
-            ResumePlayer();
-            OpenDoor();
+            //Display Correct
+            Code.text = "Correct";
+            Code.faceColor = Color.green;
+            Code.outlineColor = Color.green;
+            AkSoundEngine.PostEvent("keypadSuccess", gameObject);
+
+            //Resume Player after 1 second
+            AkSoundEngine.PostEvent("doorUnlock", gameObject);
+            Invoke("OpenDoor", 2);
+            Invoke("ResumePlayer", 2);
+            Door.SetBool("doorSwing", true);
         }  
         else
         {
             Clear();
             OnDisable();
             Code.text = "Incorrect";
+            Code.faceColor = Color.red;
+            Code.outlineColor = Color.red;
+            AkSoundEngine.PostEvent("keypadFail", gameObject);
         }
     }
     public void OnDisable()

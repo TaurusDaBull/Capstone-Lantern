@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4FEB732E-EB66-4843-A917-52D7BD59FAA8}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="inGame" ID="{4FEB732E-EB66-4843-A917-52D7BD59FAA8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="walkingStone" ID="{1567C9D8-116A-4827-9B85-070DE1DA7A87}">
+					<ObjectInclusionList>
+						<ObjectRef Name="walkingStone" ID="{8BF82C8A-9178-457E-BED2-681505B9110C}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="keypadFail" ID="{177C0B0B-6888-4CA6-84F3-E5FF69D2622A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="keypadFail" ID="{6A6DDA74-077F-416B-9FE3-805FB7D9722A}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="lanternPickUp" ID="{EA2C9F00-6C61-4120-9480-B887403230C1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="lanternPickUp" ID="{2B31BAE6-6FAB-4C95-B6C8-013C59CD5BFC}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="keypadSuccess" ID="{811776B5-A66C-415D-86E2-C97982A4505E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="keypadSuccess" ID="{DD7E9354-DC9A-469E-B1CE-EEDF8E810AB7}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="doorUnlock" ID="{9AA4B56E-918D-4656-9290-C9FE4EFDA64C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="doorUnlock" ID="{8EFA05A1-6C91-44ED-A858-48633D53FC87}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="doorCreak" ID="{FF5A41E4-B169-4B87-92E4-72D8F329115D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="doorCreak" ID="{2FAC3BF5-860E-4E4B-B29E-3FC2B7E66DA9}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="lanternThud" ID="{CD77F6FE-8C58-43E9-944E-5F1664DD27D4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="lanternThud" ID="{8E106112-D83D-4892-A102-51D6E0439ACB}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

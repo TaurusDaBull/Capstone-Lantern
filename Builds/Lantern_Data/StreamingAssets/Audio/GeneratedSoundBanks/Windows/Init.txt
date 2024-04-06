@@ -1,3 +1,14 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	984691642	inGame			\Default Work Unit\inGame	
+	3161908922	Main			\Default Work Unit\Main	
+
+State	ID	Name	State Group			Notes
+	748895195	None	inGame			
+	984691642	inGame	inGame			
+	4198606512	levelTransition	inGame			
+	1300063251	startingGame	Main			
+	2707144702	idelInMainMenu	Main			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed42e6e903884314cadda9972019d8b1, type: 3}
+  m_Name: EA2C9F00-6C61-4120-9480-B887403230C1
+  m_EditorClassIdentifier: 
+  objectName: lanternPickUp
+  id: 1546523411
+  guid: EA2C9F00-6C61-4120-9480-B887403230C1

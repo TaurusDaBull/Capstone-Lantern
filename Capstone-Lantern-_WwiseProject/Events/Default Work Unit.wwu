@@ -8,7 +8,7 @@
 						<Action Name="" ID="{4C90A990-BD2A-4667-AB7B-265F27B85CC2}" ShortID="450042740">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Keypad-Press" ID="{9EB1521E-51DF-4BA6-9BA6-96B70C94B0AC}" WorkUnitID="{F0E42161-897D-4609-BE66-E39EEEA723AA}"/>
+									<ObjectRef Name="Keypad-Press" ID="{9EB1521E-51DF-4BA6-9BA6-96B70C94B0AC}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -19,7 +19,7 @@
 						<Action Name="" ID="{7CD3DDFB-1285-41F7-BAAF-E47AAB67A0A8}" ShortID="331625164">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="doorOpen" ID="{45182E9A-EB32-4F0A-8239-2CF8ACD0ADF7}" WorkUnitID="{F0E42161-897D-4609-BE66-E39EEEA723AA}"/>
+									<ObjectRef Name="doorOpen" ID="{45182E9A-EB32-4F0A-8239-2CF8ACD0ADF7}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

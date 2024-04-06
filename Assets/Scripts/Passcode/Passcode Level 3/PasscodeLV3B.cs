@@ -5,15 +5,19 @@ using UnityEngine;
 
 public class PasscodeLV3B : MonoBehaviour
 {
-    public TMP_Text Passcodes;
-    public GameObject LanternOnPlayer;
-    public Light LightOnPlayer;
-    public Light LightOnStand;
+    [Header("KeyPad")]
+    public TMP_Text Passcode;
     public GameObject KeyPad;
-    public GameObject Reveal;
+    public GameObject CodePanel;
+    [Header("Lanterns")]
+    public GameObject LanternOnCatch;
+    [Header("Lights")]
+    public Light LightOnPlayer;
+
 
     Color[] CodeColors = new Color[3];
     public int LightColor;
+    int grab; //CodePanel Color buffer
 
 
     bool TextShown;
@@ -22,11 +26,12 @@ public class PasscodeLV3B : MonoBehaviour
     private void Start()
     {
 
+
         CodeColors[0] = Color.blue;
         CodeColors[1] = Color.yellow;
         CodeColors[2] = Color.green;
         Debug.Log("The Light Color is: " + LightColor);
-        
+
 
     }
 
@@ -34,25 +39,44 @@ public class PasscodeLV3B : MonoBehaviour
     {
 
 
-        if (LanternOnPlayer.activeInHierarchy == true)
+        if (LanternOnCatch.activeInHierarchy == true)
         {
-
-
-            TextShown = true;
-            if (TextShown == true && LightOnPlayer.color == CodeColors[LightColor])
+            if (LightOnPlayer.color == CodeColors[LightColor])
             {
-
-
-                Passcodes.text = KeyPad.GetComponent<DoorOpenLV3>().PartB;
-
-
-            }
-            else
-            {
-                Passcodes.text = " ";
+                Passcode.text = KeyPad.GetComponent<DoorOpenLV3>().PartB;
             }
 
+
+        }
+        else
+        {
+            Passcode.text = " ";
         }
 
     }
+
+/*    void GrabColor()
+    {
+        CodeColors[0] = Color.blue;
+        CodeColors[1] = Color.yellow;
+        CodeColors[2] = Color.green;
+
+        Debug.Log("The color of the Panel is: " + LightColor);
+        if (CodePanel.GetComponent<Reveal>().i == grab)
+        {
+            Debug.Log("Good");
+        }
+        else if (CodePanel.GetComponent<Reveal>().i != grab)
+        {
+            Debug.Log("Bad");
+            while (CodePanel.GetComponent<Reveal>().i > grab && grab < 3)
+            {
+                Debug.Log("Changing Color");
+                grab++;
+                LightColor = grab;
+            }
+
+        }
+        Debug.Log("The color of the Panel is at end is: " + LightColor);
+    }*/
 }

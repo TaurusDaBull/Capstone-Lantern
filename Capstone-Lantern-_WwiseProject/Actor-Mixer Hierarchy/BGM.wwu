@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DBCAA427-A587-4353-BF5F-6B239AC26F72}" SchemaVersion="119" RootDocumentID="{F0E42161-897D-4609-BE66-E39EEEA723AA}" ParentDocumentID="{F0E42161-897D-4609-BE66-E39EEEA723AA}">
+	<AudioObjects>
+		<WorkUnit Name="BGM" ID="{DBCAA427-A587-4353-BF5F-6B239AC26F72}" OwnerID="{F0E42161-897D-4609-BE66-E39EEEA723AA}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="inGame" ID="{5002C46E-63AF-4B58-A670-52C65105355D}" ShortID="627857552">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="inGame" ID="{D83F03AA-7C22-4532-8A1E-796673A69BDC}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.81259308564451"/>
+								<Property Name="LoopBegin" Type="Real64" Value="13.2566664011628"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="85.5911382382697"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>inGame.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="510686906"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="inGame" ID="{B22510E5-D5D2-4F88-801B-835A0A5B26C0}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="levelTransition" ID="{8B48EF48-4B18-42F8-967F-D7911D80D706}"/>
+								<CustomState Name="" ID="{43C574EA-6E90-4970-8658-7315A9B9CD06}" ShortID="1012362188">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-98"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="inGame" ID="{1276F332-E1EF-468B-B93C-0425A6FA322D}"/>
+								<CustomState Name="" ID="{E50A9CD3-DDBB-4538-A3E6-9949A88B49E5}" ShortID="432241524"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="inGame" ID="{D83F03AA-7C22-4532-8A1E-796673A69BDC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="titleMusic" ID="{2D5BC4A1-766C-47CB-BD5B-A81AA0C57BEE}" ShortID="915146521">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="titleMusic" ID="{A907E700-BEB4-432A-95DF-B740D95007E4}">
+							<Language>SFX</Language>
+							<AudioFile>titleMusic.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="884105646"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Main" ID="{1A449A9B-0079-4DC2-9C67-1B06F27BC749}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="startingGame" ID="{698657E6-1F8B-4656-98B4-3E9176AE963F}"/>
+								<CustomState Name="" ID="{AADE164E-210F-40BD-A699-B20B6B490ABB}" ShortID="377564128">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-98"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="idelInMainMenu" ID="{5753BCB0-BB0F-4FEC-9E24-30367D8428F7}"/>
+								<CustomState Name="" ID="{9F1CA730-A421-4DA5-8E24-1FC04CB8671D}" ShortID="1000667160"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="titleMusic" ID="{A907E700-BEB4-432A-95DF-B740D95007E4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
