@@ -5,10 +5,9 @@ using UnityEngine;
 
 public class PasscodeLV3C : MonoBehaviour
 {
-    public TMP_Text Passcodes;
+    public TMP_Text Passcode;
     public GameObject LanternOnPlayer;
     public Light LightOnPlayer;
-    public Light LightOnStand;
     public GameObject KeyPad;
     public GameObject Reveal;
 
@@ -43,13 +42,13 @@ public class PasscodeLV3C : MonoBehaviour
             {
 
 
-                Passcodes.text = KeyPad.GetComponent<DoorOpenLV4>().PartC;
+                Passcode.text = KeyPad.GetComponent<DoorOpenLV3>().PartC;
 
 
             }
             else
             {
-                Passcodes.text = " ";
+                Passcode.text = " ";
             }
 
         }

@@ -5,9 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    [SerializeField]
-    string strTag;
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,5 +14,7 @@ public class NextLevel : MonoBehaviour
             Debug.Log("Next Level");
         //ScreenManager will move the player to the next designated level
         SceneManager.LoadScene("Lvl 2.2");
+        AkSoundEngine.SetState("inGame", "levelTransition");
+
     }
 }

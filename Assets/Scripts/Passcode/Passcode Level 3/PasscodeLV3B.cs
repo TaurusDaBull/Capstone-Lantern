@@ -5,14 +5,11 @@ using UnityEngine;
 
 public class PasscodeLV3B : MonoBehaviour
 {
-    [Header("KeyPad")]
     public TMP_Text Passcode;
-    public GameObject KeyPad;
-    public GameObject CodePanel;
-    [Header("Lanterns")]
-    public GameObject LanternOnCatch;
-    [Header("Lights")]
+    public GameObject LanternOnPlayer;
     public Light LightOnPlayer;
+    public GameObject KeyPad;
+    public GameObject Reveal;
 
 
     Color[] CodeColors = new Color[3];
@@ -39,44 +36,21 @@ public class PasscodeLV3B : MonoBehaviour
     {
 
 
-        if (LanternOnCatch.activeInHierarchy == true)
+        if (LanternOnPlayer.activeInHierarchy == true)
         {
-            if (LightOnPlayer.color == CodeColors[LightColor])
+            TextShown = true;
+            if (TextShown == true && LightOnPlayer.color == CodeColors[LightColor])
             {
                 Passcode.text = KeyPad.GetComponent<DoorOpenLV3>().PartB;
             }
-
-
-        }
-        else
-        {
-            Passcode.text = " ";
-        }
-
-    }
-
-/*    void GrabColor()
-    {
-        CodeColors[0] = Color.blue;
-        CodeColors[1] = Color.yellow;
-        CodeColors[2] = Color.green;
-
-        Debug.Log("The color of the Panel is: " + LightColor);
-        if (CodePanel.GetComponent<Reveal>().i == grab)
-        {
-            Debug.Log("Good");
-        }
-        else if (CodePanel.GetComponent<Reveal>().i != grab)
-        {
-            Debug.Log("Bad");
-            while (CodePanel.GetComponent<Reveal>().i > grab && grab < 3)
+            else
             {
-                Debug.Log("Changing Color");
-                grab++;
-                LightColor = grab;
+                Passcode.text = " ";
             }
 
         }
-        Debug.Log("The color of the Panel is at end is: " + LightColor);
-    }*/
+      
+
+    }
+
 }

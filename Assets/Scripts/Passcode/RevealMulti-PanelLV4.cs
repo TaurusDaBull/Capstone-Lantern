@@ -11,9 +11,9 @@ public class RevealMultiPanelLV4 : MonoBehaviour
     [Header("Panels")]
     public GameObject[] Panels = new GameObject[3];
     [Header("Passcodes")]
-    public PasscodeLV3A passcode0;
+    public PasscodeLV4A passcode0;
     public PasscodeLV4B passcode1;
-    public PasscodeLV3C passcode2;
+    public PasscodeLV4C passcode2;
 
 
     public string[] panels = new string[3];
@@ -51,9 +51,9 @@ public class RevealMultiPanelLV4 : MonoBehaviour
     public void Update()
     {
 
-        passcode0.GetComponent<PasscodeLV3A>().LightColor = Int32.Parse(panels[0]);
+        passcode0.GetComponent<PasscodeLV4A>().LightColor = Int32.Parse(panels[0]);
         passcode1.GetComponent<PasscodeLV4B>().LightColor = Int32.Parse(panels[1]);
-        passcode2.GetComponent<PasscodeLV3C>().LightColor = Int32.Parse(panels[2]);
+        passcode2.GetComponent<PasscodeLV4C>().LightColor = Int32.Parse(panels[2]);
 
     }
 

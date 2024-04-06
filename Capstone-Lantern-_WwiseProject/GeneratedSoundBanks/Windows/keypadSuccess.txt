@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	2353527262	keypadSuccess			\inGame\keypadSuccess	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	394388474	keyPadSuccess	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\keyPadSuccess_F502FF67.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\keyPadSuccess		41974
+	394388474	keyPadSuccess	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\keyPadSuccess_D25F2B04.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\keyPadSuccess		41974
 

@@ -48,6 +48,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID IDELINMAINMENU = 2707144702U;
+                static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID STARTINGGAME = 1300063251U;
             } // namespace STATE
         } // namespace MAIN

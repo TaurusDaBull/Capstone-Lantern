@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-
-    private AK.Wwise.State inMenu;
-    // Update is called once per frame
      public void Update()
     {
 

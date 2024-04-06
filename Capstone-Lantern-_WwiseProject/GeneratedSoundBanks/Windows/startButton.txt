@@ -5,5 +5,5 @@ Effect plug-ins	ID	Name	Type				Notes
 	2098638826	Underground_Parking1	Wwise Matrix Reverb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	28000963	mainMenuStart	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\mainMenuStart_292C6D25.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\mainMenuStart		62977
+	28000963	mainMenuStart	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\mainMenuStart_AAEF5718.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\mainMenuStart		62977
 

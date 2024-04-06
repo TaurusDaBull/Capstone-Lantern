@@ -1,9 +1,21 @@
 sceneSetups:
+- path: Assets/Scenes/Main Menu/Main Menu v2.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Lvl 1.2/Lvl 1.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
 - path: Assets/Scenes/Lvl 2.2/Lvl 2.2.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Lvl 3.2/Lvl 3.2.unity
   isLoaded: 0
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/4.2/Lvl 4.2.unity
   isLoaded: 1
-  isActive: 1
+  isActive: 0
   isSubScene: 0
