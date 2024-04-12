@@ -2,9 +2,10 @@
 <PluginInfo Platform="Windows" BasePlatform="Windows">
 	<PluginLibs>
 		<PluginLib LibName="Wwise Matrix Reverb" LibId="7536643" Type="Effect" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
+		<PluginLib LibName="Wwise Time Stretch" LibId="8519683" Type="Effect" DLL="AkTimeStretch" StaticLib="AkTimeStretchFX"/>
 		<PluginLib LibName="Wwise Pitch Shifter" LibId="8912899" Type="Effect" DLL="AkPitchShifter" StaticLib="AkPitchShifterFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{8F691A2A-6180-6F12-9B79-232A89DFA4F6}</FileHash>
+	<FileHash>{EE7BC1EA-AF3C-9740-2907-72F83DEE5ABE}</FileHash>
 </PluginInfo>

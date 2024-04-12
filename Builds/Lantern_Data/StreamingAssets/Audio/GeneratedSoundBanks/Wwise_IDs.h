@@ -23,6 +23,7 @@ namespace AK
         static const AkUniqueID LANTERNPICKUP = 1546523411U;
         static const AkUniqueID LANTERNTHUD = 2165330516U;
         static const AkUniqueID PLAY = 1256202815U;
+        static const AkUniqueID STAIRSNEXTLEVEL = 131039866U;
         static const AkUniqueID START = 1281810935U;
         static const AkUniqueID WALKINGSTONE = 881533257U;
     } // namespace EVENTS
@@ -48,6 +49,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID IDELINMAINMENU = 2707144702U;
+                static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID STARTINGGAME = 1300063251U;
             } // namespace STATE
         } // namespace MAIN
@@ -85,6 +87,7 @@ namespace AK
         static const AkUniqueID KEYPADSUCCESS = 2353527262U;
         static const AkUniqueID LANTERNPICKUP = 1546523411U;
         static const AkUniqueID LANTERNTHUD = 2165330516U;
+        static const AkUniqueID STAIRSNEXTLEVEL = 131039866U;
         static const AkUniqueID STARTBUTTON = 1651515387U;
         static const AkUniqueID TITLEMUSIC = 2191159630U;
         static const AkUniqueID WALKINGSTONE = 881533257U;

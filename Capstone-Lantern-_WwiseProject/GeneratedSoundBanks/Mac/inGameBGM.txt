@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	412724365	BGM			\inGame\BGM	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	984691642	inGame			\Default Work Unit\inGame	
+
+State	ID	Name	State Group			Notes
+	748895195	None	inGame			
+	984691642	inGame	inGame			
+	4198606512	levelTransition	inGame			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	510686906	inGame	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\inGame_FE77B228.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\inGame		1649960
+

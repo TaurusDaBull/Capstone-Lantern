@@ -9,6 +9,33 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="131039866" Type="User" Language="SFX" Hash="{7C605CF8-0FAF-B682-4C1D-3B687AE10B58}">
+			<ShortName>stairsNextLevel</ShortName>
+			<Path>stairsNextLevel.bnk</Path>
+			<Media>
+				<File Id="1064052619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stairsNextLevel.wav</ShortName>
+					<CachePath>SFX/stairsNextLevel_B806A3DF.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1050843552" Name="Time Stretch (Custom)" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="131039866" Name="stairsNextLevel" DurationType="OneShot" DurationMin="11.92815" DurationMax="11.92815">
+					<MediaRefs>
+						<MediaRef Id="1064052619"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1050843552"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="227958399" Type="User" Language="SFX" Hash="{8E68670E-59CD-4C75-5F38-F59A8DDDF7A4}">
 			<ShortName>doorCreak</ShortName>
 			<Path>doorCreak.bnk</Path>
@@ -90,7 +117,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{63D5B683-DDEA-7ED4-2103-5E3167424736}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4CD62ED0-2345-04A3-C954-8A146A5B1BC1}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -339,5 +366,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2C3A4B91-9ADB-4F82-E3C6-A1D4D663FBDB}</FileHash>
+	<FileHash>{A3C35F65-1C51-4EDC-9500-C5FEEF35F572}</FileHash>
 </SoundBanksInfo>

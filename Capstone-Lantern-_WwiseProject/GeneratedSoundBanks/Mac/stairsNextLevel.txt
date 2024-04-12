@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	131039866	stairsNextLevel			\inGame\stairsNextLevel	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1050843552	Time Stretch (Custom)	Wwise Time Stretch			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1064052619	stairsNextLevel	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\stairsNextLevel_1F78060C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\stairsNextLevel		253205
+

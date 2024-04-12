@@ -6,6 +6,7 @@ State	ID	Name	State Group			Notes
 	748895195	None	inGame			
 	984691642	inGame	inGame			
 	4198606512	levelTransition	inGame			
+	748895195	None	Main			
 	1300063251	startingGame	Main			
 	2707144702	idelInMainMenu	Main			
 

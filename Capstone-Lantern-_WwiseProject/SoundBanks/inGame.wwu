@@ -52,6 +52,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="stairsNextLevel" ID="{EEF68D84-42C7-4EE6-9E0D-94FBCE6949ED}">
+					<ObjectInclusionList>
+						<ObjectRef Name="stairsNextLevel" ID="{693EEE52-30EE-405E-BCE4-BC041FFD749F}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

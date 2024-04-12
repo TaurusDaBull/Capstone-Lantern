@@ -134,7 +134,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\inGame
     guid: 2e73eb4f66eb4348a91752d7bd59faa8
     GuidInternal: 
-    m_lastTime: -8584892448337891909
+    m_lastTime: -8584887190269159039
     List:
     - name: doorCreak
       guid: e4415aff69b1874b92e472d8f329115d
@@ -220,6 +220,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: fef677cd588ce943944e5f1664dd27d4
       Path: SoundBanks\inGame\lanternThud
+    - name: stairsNextLevel
+      guid: 848df6eec742e64e9e0d94fbce6949ed
+      id: 131039866
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: stairsNextLevel
+        ObjectType: 7
+        guid: 848df6eec742e64e9e0d94fbce6949ed
+      Path: SoundBanks\inGame\stairsNextLevel
     - name: walkingStone
       guid: d8c967156a1127489b85070de1da7a87
       id: 881533257
@@ -334,7 +348,7 @@ MonoBehaviour:
     ParentPath: Events\inGame
     guid: 5a57cf2957508340bc5cdd78745cb15c
     GuidInternal: 
-    m_lastTime: -8584892448337729019
+    m_lastTime: -8584887190269051860
     List:
     - name: BGM
       guid: 5ee111ef62083e43a1353a883334f85c
@@ -455,6 +469,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.69150996
       minDuration: 0.69150996
+    - name: stairsNextLevel
+      guid: 52ee3e69ee305e40bce4bc041ffd749f
+      id: 131039866
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: stairsNextLevel
+        ObjectType: 3
+        guid: 52ee3e69ee305e40bce4bc041ffd749f
+      Path: Events\inGame\stairsNextLevel
+      maxAttenuation: 0
+      maxDuration: 11.92815
+      minDuration: 11.92815
     - name: walkingStone
       guid: 8a2cf88b78917e45bed2681505b9110c
       id: 881533257
@@ -545,7 +576,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 1cb30a88a401ae47b65c193386a244e9
     GuidInternal: 
-    m_lastTime: -8584897444192562812
+    m_lastTime: -8584891552216394924
     List:
     - name: inGame
       guid: e51025b2d2d5884f801b835a0a5b26c0
@@ -644,6 +675,22 @@ MonoBehaviour:
         - ElementName: idelInMainMenu
           ObjectType: 8
           guid: b0bc53570fbbec4f9e2430367d8428f7
+      - name: None
+        guid: 8abb41add5c26f40b6c0f97bc7c6f710
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 1cb30a88a401ae47b65c193386a244e9
+        - ElementName: Main
+          ObjectType: 9
+          guid: 9b9a441a7900c24d9c671b06f27bc749
+        - ElementName: None
+          ObjectType: 8
+          guid: 8abb41add5c26f40b6c0f97bc7c6f710
       - name: startingGame
         guid: e65786698b1f564698b43e9176ae963f
         id: 1300063251
@@ -739,9 +786,9 @@ MonoBehaviour:
         ObjectType: 14
         guid: 254ba4aa10f7b2468f2a8441c4a90cf3
       Path: Triggers\Default Work Unit\New_Trigger
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0400000006000000070000000a0000000c0000000d0000000f00000011000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000021000000220000002d0000003300000037000000ff8e0300e2b90400b69e1000
+  ExpandedFileSystemItemIds: 02000000030000000400000006000000070000000a0000000c0000000d0000000f0000001100000013000000140000001500000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000260000002d0000002e000000320000003300000037000000ff8e0300e2b90400b69e1000
+  ExpandedWaapiItemIds: 02000000030000000400000006000000070000000a0000000c0000000d0000000f0000001100000013000000140000001500000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000260000002d0000002e000000320000003300000037000000ff8e0300e2b90400b69e1000
   AutoSyncSelection: 0
-  autoPopulateEnabled: 0
-  currentDataSource: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 1
   CurrentPluginConfig: 

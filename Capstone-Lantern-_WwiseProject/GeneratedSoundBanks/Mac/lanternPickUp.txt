@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1546523411	lanternPickUp			\inGame\lanternPickUp	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1030498840	lanternPickUp	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\lanternPickUp_770661D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\lanternPickUp		17343
+

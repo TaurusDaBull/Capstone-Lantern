@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2411561249	keypadFail			\inGame\keypadFail	
+
+Effect plug-ins	ID	Name	Type				Notes
+	654807232	Chipmunk	Wwise Pitch Shifter			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	386275828	keyPadFail	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\keyPadFail_30CC1881.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\keyPadFail		13041
+

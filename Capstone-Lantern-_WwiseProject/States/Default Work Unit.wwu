@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<StateGroup Name="Main" ID="{1A449A9B-0079-4DC2-9C67-1B06F27BC749}">
 					<ChildrenList>
+						<State Name="None" ID="{AD41BB8A-C2D5-406F-B6C0-F97BC7C6F710}"/>
 						<State Name="idelInMainMenu" ID="{5753BCB0-BB0F-4FEC-9E24-30367D8428F7}"/>
 						<State Name="startingGame" ID="{698657E6-1F8B-4656-98B4-3E9176AE963F}"/>
 					</ChildrenList>

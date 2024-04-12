@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	227958399	doorCreak			\inGame\doorCreak	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3948262040	Octave_Down	Wwise Pitch Shifter			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	199641394	doorCreak	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\doorCreak_81566AAE.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\doorCreak		116196
+

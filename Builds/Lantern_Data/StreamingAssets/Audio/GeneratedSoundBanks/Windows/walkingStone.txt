@@ -8,10 +8,10 @@ Switch	ID	Name	Switch Group			Notes
 	1216965916	stone	Footsteps			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	117312246	stoneFootsteps_05	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_554F32C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_05		3235
-	173832277	stoneFootsteps	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_6329EE1F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps		3205
-	273072788	stoneFootsteps_04	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_4D53E7DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_04		3531
-	392107553	stoneFootsteps_02	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_DA611F33.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_02		2844
-	754838680	stoneFootsteps_03	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_8FFFFF90.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_03		3520
-	1007023265	stoneFootsteps_01	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_32857617.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_01		4045
+	117312246	stoneFootsteps_05	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_7BAD506C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_05		3235
+	173832277	stoneFootsteps	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_CD7E5648.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps		3205
+	273072788	stoneFootsteps_04	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_AC56AEB7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_04		3531
+	392107553	stoneFootsteps_02	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_75CDFABF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_02		2844
+	754838680	stoneFootsteps_03	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_E49215B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_03		3520
+	1007023265	stoneFootsteps_01	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\Footsteps_23A6C20B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_01		4045
 

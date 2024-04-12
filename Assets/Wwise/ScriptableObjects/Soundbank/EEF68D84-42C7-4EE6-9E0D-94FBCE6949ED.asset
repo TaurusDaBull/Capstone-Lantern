@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed42e6e903884314cadda9972019d8b1, type: 3}
+  m_Name: EEF68D84-42C7-4EE6-9E0D-94FBCE6949ED
+  m_EditorClassIdentifier: 
+  objectName: stairsNextLevel
+  id: 131039866
+  guid: EEF68D84-42C7-4EE6-9E0D-94FBCE6949ED

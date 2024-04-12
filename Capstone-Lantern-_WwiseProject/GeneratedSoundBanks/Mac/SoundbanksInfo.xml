@@ -9,7 +9,115 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1A4355F6-176F-7E5F-84E3-3D8BBD322830}">
+		<SoundBank Id="131039866" Type="User" Language="SFX" Hash="{391BC84E-B004-31CC-0946-2F4CA2177AB2}">
+			<ShortName>stairsNextLevel</ShortName>
+			<Path>stairsNextLevel.bnk</Path>
+			<Media>
+				<File Id="1064052619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stairsNextLevel.wav</ShortName>
+					<CachePath>SFX/stairsNextLevel_1F78060C.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="1050843552" Name="Time Stretch (Custom)" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="131039866" Name="stairsNextLevel" DurationType="OneShot" DurationMin="11.92815" DurationMax="11.92815">
+					<MediaRefs>
+						<MediaRef Id="1064052619"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="1050843552"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="227958399" Type="User" Language="SFX" Hash="{8E68670E-59CD-4C75-5F38-F59A8DDDF7A4}">
+			<ShortName>doorCreak</ShortName>
+			<Path>doorCreak.bnk</Path>
+			<Media>
+				<File Id="199641394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>doorCreak.wav</ShortName>
+					<CachePath>SFX/doorCreak_81566AAE.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3948262040" Name="Octave_Down" LibName="Wwise Pitch Shifter" LibId="8912899"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="227958399" Name="doorCreak" DurationType="OneShot" DurationMin="5.0970507" DurationMax="5.0970507">
+					<MediaRefs>
+						<MediaRef Id="199641394"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3948262040"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="881533257" Type="User" Language="SFX" Hash="{7E102474-A53D-C8E4-2684-816DEDCB38B7}">
+			<ShortName>walkingStone</ShortName>
+			<Path>walkingStone.bnk</Path>
+			<Media>
+				<File Id="117312246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps.wav</ShortName>
+					<CachePath>SFX/Footsteps_7BAD506C.wem</CachePath>
+				</File>
+				<File Id="173832277" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps.wav</ShortName>
+					<CachePath>SFX/Footsteps_CD7E5648.wem</CachePath>
+				</File>
+				<File Id="273072788" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps.wav</ShortName>
+					<CachePath>SFX/Footsteps_AC56AEB7.wem</CachePath>
+				</File>
+				<File Id="392107553" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps.wav</ShortName>
+					<CachePath>SFX/Footsteps_75CDFABF.wem</CachePath>
+				</File>
+				<File Id="754838680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps.wav</ShortName>
+					<CachePath>SFX/Footsteps_E49215B6.wem</CachePath>
+				</File>
+				<File Id="1007023265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps.wav</ShortName>
+					<CachePath>SFX/Footsteps_23A6C20B.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="881533257" Name="walkingStone" DurationType="OneShot" DurationMin="0.2878369" DurationMax="0.46162522">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="1216965916" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="117312246"/>
+								<MediaRef Id="173832277"/>
+								<MediaRef Id="273072788"/>
+								<MediaRef Id="392107553"/>
+								<MediaRef Id="754838680"/>
+								<MediaRef Id="1007023265"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps">
+					<Switches>
+						<Switch Id="1216965916" Name="stone"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{78B66010-FED3-DE47-D9A2-74FB4641FCF5}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,10 +129,14 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
-			<GameParameters>
-				<GameParameter Id="3604647259" Name="MainMenu"/>
-			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="984691642" Name="inGame">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="984691642" Name="inGame"/>
+						<State Id="4198606512" Name="levelTransition"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="3161908922" Name="Main">
 					<States>
 						<State Id="748895195" Name="None"/>
@@ -33,14 +145,21 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps">
+					<Switches>
+						<Switch Id="1216965916" Name="stone"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1404805401" Type="User" Language="SFX" Hash="{F7DFF944-2AB5-DC43-D9BC-27174997B4DB}">
+		<SoundBank Id="1404805401" Type="User" Language="SFX" Hash="{2621AA52-E6D7-0C59-5106-06FD27D7CFC5}">
 			<ShortName>doorOpen</ShortName>
 			<Path>doorOpen.bnk</Path>
 			<Media>
 				<File Id="649141958" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorOpen.wav</ShortName>
-					<CachePath>SFX/DoorOpen_818F3B66.wem</CachePath>
+					<CachePath>SFX/DoorOpen_0D1EB3D6.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -51,13 +170,113 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2108322741" Type="User" Language="SFX" Hash="{99842A85-220F-BA8A-4A12-C5CC82C2D0A0}">
+		<SoundBank Id="1546523411" Type="User" Language="SFX" Hash="{757D17EB-016B-F662-AE60-FEF6C9E47746}">
+			<ShortName>lanternPickUp</ShortName>
+			<Path>lanternPickUp.bnk</Path>
+			<Media>
+				<File Id="1030498840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lanternPickUp.wav</ShortName>
+					<CachePath>SFX/lanternPickUp_770661D8.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1546523411" Name="lanternPickUp" DurationType="OneShot" DurationMin="0.75806564" DurationMax="0.75806564">
+					<MediaRefs>
+						<MediaRef Id="1030498840"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1553818165" Type="User" Language="SFX" Hash="{DF02288F-CAB1-4F97-C288-19D0EB1F8C1C}">
+			<ShortName>doorUnlock</ShortName>
+			<Path>doorUnlock.bnk</Path>
+			<Media>
+				<File Id="457400394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>doorUnlock.wav</ShortName>
+					<CachePath>SFX/doorUnlock_2300E389.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3948262040" Name="Octave_Down" LibName="Wwise Pitch Shifter" LibId="8912899"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="1553818165" Name="doorUnlock" DurationType="OneShot" DurationMin="1.9512782" DurationMax="1.9512782">
+					<MediaRefs>
+						<MediaRef Id="457400394"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3948262040"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1651515387" Type="User" Language="SFX" Hash="{FC138EC7-CF4D-0052-3566-E28B02FDBBC5}">
+			<ShortName>startButton</ShortName>
+			<Path>startButton.bnk</Path>
+			<Media>
+				<File Id="28000963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mainMenuStart.wav</ShortName>
+					<CachePath>SFX/mainMenuStart_AAEF5718.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2098638826" Name="Underground_Parking1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="1281810935" Name="Start" DurationType="OneShot" DurationMin="4.4253573" DurationMax="4.4253573">
+					<MediaRefs>
+						<MediaRef Id="28000963"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2098638826"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1893515252" Type="User" Language="SFX" Hash="{E2F9E84A-3A09-673D-48E7-02FA94B9EF6E}">
+			<ShortName>inGameBGM</ShortName>
+			<Path>inGameBGM.bnk</Path>
+			<Media>
+				<File Id="510686906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>inGame.wav</ShortName>
+					<CachePath>SFX/inGame_FE77B228.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="412724365" Name="BGM" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="510686906"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="984691642" Id="984691642" Name="inGame"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="984691642" Name="inGame">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="984691642" Name="inGame"/>
+						<State Id="4198606512" Name="levelTransition"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="2108322741" Type="User" Language="SFX" Hash="{62CF5D65-4254-D5EF-DE4E-9910F19A7B0B}">
 			<ShortName>keyPadPressed</ShortName>
 			<Path>keyPadPressed.bnk</Path>
 			<Media>
 				<File Id="324331803" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Keypad-Press.wav</ShortName>
-					<CachePath>SFX/Keypad-Press_20DA73BA.wem</CachePath>
+					<CachePath>SFX/Keypad-Press_28A659EA.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -68,6 +287,84 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="2165330516" Type="User" Language="SFX" Hash="{9C7367D2-3B8A-7BE8-9FC7-432F10E9A929}">
+			<ShortName>lanternThud</ShortName>
+			<Path>lanternThud.bnk</Path>
+			<Media>
+				<File Id="356804529" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lanternThud.wav</ShortName>
+					<CachePath>SFX/lanternThud_87C69ADA.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2165330516" Name="lanternThud" DurationType="OneShot" DurationMin="0.69150996" DurationMax="0.69150996">
+					<MediaRefs>
+						<MediaRef Id="356804529"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2191159630" Type="User" Language="SFX" Hash="{75B1ADAF-12E2-7E58-57C1-5E3DA66F8BDC}">
+			<ShortName>titleMusic</ShortName>
+			<Path>titleMusic.bnk</Path>
+			<Media>
+				<File Id="884105646" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>titleMusic.wav</ShortName>
+					<CachePath>SFX/titleMusic_D9B786A0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1256202815" Name="Play" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="884105646"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2353527262" Type="User" Language="SFX" Hash="{EA6EFF59-842D-E2DD-BF95-C0D10642259F}">
+			<ShortName>keypadSuccess</ShortName>
+			<Path>keypadSuccess.bnk</Path>
+			<Media>
+				<File Id="394388474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>keyPadSuccess.wav</ShortName>
+					<CachePath>SFX/keyPadSuccess_D25F2B04.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2353527262" Name="keypadSuccess" DurationType="OneShot" DurationMin="4.863943" DurationMax="4.863943">
+					<MediaRefs>
+						<MediaRef Id="394388474"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2411561249" Type="User" Language="SFX" Hash="{C476F095-1C22-9E4B-841C-FDBC8C5C3667}">
+			<ShortName>keypadFail</ShortName>
+			<Path>keypadFail.bnk</Path>
+			<Media>
+				<File Id="386275828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>keyPadFail.wav</ShortName>
+					<CachePath>SFX/keyPadFail_30CC1881.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="654807232" Name="Chipmunk" LibName="Wwise Pitch Shifter" LibId="8912899"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="2411561249" Name="keypadFail" DurationType="OneShot" DurationMin="0.60040224" DurationMax="0.60040224">
+					<MediaRefs>
+						<MediaRef Id="386275828"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="654807232"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{49ABC25D-AE6B-4E4E-1161-7ADAA40A9FB8}</FileHash>
+	<FileHash>{580D7149-D1E9-66DC-614E-133C33532DD3}</FileHash>
 </SoundBanksInfo>

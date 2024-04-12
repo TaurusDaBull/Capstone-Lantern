@@ -101,6 +101,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="stairsNextLevel" ID="{693EEE52-30EE-405E-BCE4-BC041FFD749F}">
+					<ChildrenList>
+						<Action Name="" ID="{0ED31D29-4537-4A42-87BD-E3D114938F2D}" ShortID="570244361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stairsNextLevel" ID="{C1F335B6-CC34-4D83-ADF1-CA37DE76EADE}" WorkUnitID="{076B0331-B057-46F7-9CCC-2074DA5C4417}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
