@@ -9025,7 +9025,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.38679248, g: 0.28972948, b: 0.28972948, a: 1}
-  m_Intensity: 39.09
+  m_Intensity: 115
   m_Range: 16.46
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -9084,7 +9084,7 @@ Transform:
   m_GameObject: {fileID: 638808318}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -58.98, y: 7.6, z: 103.77}
+  m_LocalPosition: {x: -60.87, y: 10.73, z: 104.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18979,6 +18979,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393222937}
   m_CullTransparentMesh: 1
+--- !u!1 &1425087508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1425087510}
+  - component: {fileID: 1425087509}
+  m_Layer: 0
+  m_Name: WwiseGlobal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1425087509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425087508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 789a65d09d07d4e48a9126e37de8d4f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationSettings: {fileID: 11400000, guid: d80cd5268d8ca83498700df22c566d42,
+    type: 2}
+  basePath: 
+  language: 
+  defaultPoolSize: 0
+  lowerPoolSize: 0
+  streamingPoolSize: 0
+  memoryCutoffThreshold: 0
+  monitorPoolSize: 0
+  monitorQueuePoolSize: 0
+  callbackManagerBufferSize: 0
+  spatialAudioPoolSize: 0
+  maxSoundPropagationDepth: 0
+  engineLogging: 0
+--- !u!4 &1425087510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425087508}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1431085873
 GameObject:
   m_ObjectHideFlags: 0
@@ -19492,6 +19550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 1437093874}
   pauseMenu: {fileID: 593684755}
+  resumeMenu: {fileID: 0}
 --- !u!1 &1437511427
 GameObject:
   m_ObjectHideFlags: 0
@@ -25716,3 +25775,4 @@ SceneRoots:
   - {fileID: 1045370496}
   - {fileID: 1230233737}
   - {fileID: 752398755}
+  - {fileID: 1425087510}

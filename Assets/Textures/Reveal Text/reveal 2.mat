@@ -35,15 +35,15 @@ Material:
     m_Ints: []
     m_Floats:
     - MyGlossiness: 0.5
-    - MyLightAngle: 30
+    - MyLightAngle: 39
     - MyMetallic: 0
     - MyStrengthScalor: 50
     - _OutlineSoftness: 0
     - _OutlineWidth: 0
     m_Colors:
     - MyColor: {r: 0.9716981, g: 0.96390206, b: 0, a: 1}
-    - MyLightDirection: {r: -0.99384034, g: -0.1049752, b: 0.035521068, a: 0}
-    - MyLightPosition: {r: -79.6262, g: 7.429805, b: -4.142723, a: 0}
+    - MyLightDirection: {r: -0.9636073, g: -0.26723826, b: -0.006727198, a: 0}
+    - MyLightPosition: {r: 221.98055, g: 7.6353507, b: -113.34914, a: 0}
     - _Color: {r: 0.9811321, g: 0.087931626, b: 0.087931626, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

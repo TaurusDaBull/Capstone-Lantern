@@ -131,6 +131,7 @@
     <Compile Include="Assets\Scripts\W.I.P\PasscodeMultiPanel.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuMusic.cs" />
     <Compile Include="Assets\Scripts\Passcode\Panels\Mimic 2.cs" />
+    <Compile Include="Assets\spellThanks.cs" />
     <Compile Include="Assets\Scripts\Passcode\Passcode Level 2\Passcode Lvl 2.cs" />
     <Compile Include="Assets\Scripts\Passcode\DoorOpenLV3.cs" />
     <Compile Include="Assets\Scripts\Passcode\keyPress.cs" />

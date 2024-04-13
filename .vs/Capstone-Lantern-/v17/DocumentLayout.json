@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\github\\capstone-lantern-\\assets\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\github\\capstone-lantern-\\assets\\scripts\\next-level(s)\\nextlevel-5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\next-level(s)\\nextlevel-5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\assets\\scripts\\next-level(s)\\nextlevel-4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\next-level(s)\\nextlevel-4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\assets\\spellthanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\spellthanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\assets\\scripts\\passcode\\dooropenlv4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\passcode\\dooropenlv4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\assets\\scripts\\lantern code\\spawnlantern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lantern code\\spawnlantern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\assets\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,6 +39,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NextLevel-5.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\Scripts\\Next-Level(s)\\NextLevel-5.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Next-Level(s)\\NextLevel-5.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\Scripts\\Next-Level(s)\\NextLevel-5.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Next-Level(s)\\NextLevel-5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T00:18:24.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NextLevel-4.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\Scripts\\Next-Level(s)\\NextLevel-4.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Next-Level(s)\\NextLevel-4.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\Scripts\\Next-Level(s)\\NextLevel-4.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Next-Level(s)\\NextLevel-4.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwCwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T00:05:04.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoorOpenLV4.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\Scripts\\Passcode\\DoorOpenLV4.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Passcode\\DoorOpenLV4.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\Scripts\\Passcode\\DoorOpenLV4.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Passcode\\DoorOpenLV4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:17:35.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "spellThanks.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\spellThanks.cs",
+              "RelativeDocumentMoniker": "Assets\\spellThanks.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\spellThanks.cs",
+              "RelativeToolTip": "Assets\\spellThanks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T04:56:13.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpawnLantern.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\Scripts\\Lantern Code\\SpawnLantern.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lantern Code\\SpawnLantern.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\Scripts\\Lantern Code\\SpawnLantern.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lantern Code\\SpawnLantern.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T04:17:02.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Documents\\GitHub\\Capstone-Lantern-\\Assets\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\PauseMenu.cs",
@@ -26,8 +107,7 @@
               "RelativeToolTip": "Assets\\PauseMenu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T02:18:22.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T02:18:22.475Z"
             }
           ]
         }
