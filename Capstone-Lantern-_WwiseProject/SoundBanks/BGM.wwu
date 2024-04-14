@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="lvl5BGM" ID="{4F2BFB9C-652E-40D1-8668-F67DF24BE8FD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="lvl5BGM" ID="{6CCB3B74-99CC-4DC3-A20D-ED9451BC8512}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

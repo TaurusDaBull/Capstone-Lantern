@@ -6,12 +6,13 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 
 Switch	ID	Name	Switch Group			Notes
 	1216965916	stone	Footsteps			
+	1394758289	clovers	Footsteps			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	117312246	stoneFootsteps_05	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_7BAD506C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_05		3235
-	173832277	stoneFootsteps	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_CD7E5648.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps		3205
-	273072788	stoneFootsteps_04	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_AC56AEB7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_04		3531
-	392107553	stoneFootsteps_02	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_75CDFABF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_02		2844
-	754838680	stoneFootsteps_03	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_E49215B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_03		3520
-	1007023265	stoneFootsteps_01	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_23A6C20B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_01		4045
+	117312246	stoneFootsteps_05	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_7BAD506C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_05		3235
+	173832277	stoneFootsteps	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_CD7E5648.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps		3205
+	273072788	stoneFootsteps_04	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_AC56AEB7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_04		3531
+	392107553	stoneFootsteps_02	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_75CDFABF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_02		2844
+	754838680	stoneFootsteps_03	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_E49215B6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_03		3520
+	1007023265	stoneFootsteps_01	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\Footsteps_23A6C20B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Walking\walkingStone\stoneFootsteps_01		4045
 

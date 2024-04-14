@@ -70,9 +70,11 @@
     <Compile Include="Assets\Scripts\Passcode\Passcode Level 4\PasscodeLV4C.cs" />
     <Compile Include="Assets\Scripts\Passcode\Reveal.cs" />
     <Compile Include="Assets\Scripts\Player\CursorLock.cs" />
+    <Compile Include="Assets\Scripts\Next-Level(s)\mainMenu.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\LanternCaptureLv4.cs" />
     <Compile Include="Assets\Scripts\Player\FirstPersonController.cs" />
     <Compile Include="Assets\Input\Player Input.cs" />
+    <Compile Include="Assets\slamDoorOutside.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
     <Compile Include="Assets\Scripts\Passcode\Passcode Level 4\PasscodeLV4A.cs" />
     <Compile Include="Assets\Scripts\MainMenu\fadeToGame.cs" />
@@ -117,6 +119,7 @@
     <Compile Include="Assets\Scripts\Passcode\DoorOpen.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMotor.cs" />
+    <Compile Include="Assets\unlockCursor.cs" />
     <Compile Include="Assets\ResumePlayer.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
     <Compile Include="Assets\Scripts\Lantern Code\ThrowLanternTrajectory.cs" />
@@ -133,6 +136,7 @@
     <Compile Include="Assets\Scripts\Passcode\Panels\Mimic 2.cs" />
     <Compile Include="Assets\spellThanks.cs" />
     <Compile Include="Assets\Scripts\Passcode\Passcode Level 2\Passcode Lvl 2.cs" />
+    <Compile Include="Assets\slamDoor.cs" />
     <Compile Include="Assets\Scripts\Passcode\DoorOpenLV3.cs" />
     <Compile Include="Assets\Scripts\Passcode\keyPress.cs" />
     <Compile Include="Assets\Scripts\Next-Level(s)\tranistionMusic.cs" />

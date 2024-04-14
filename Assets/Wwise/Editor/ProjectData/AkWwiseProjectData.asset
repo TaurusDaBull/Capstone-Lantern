@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: b28634a5f19f274bbe19c0123c227eb8
     GuidInternal: 
-    m_lastTime: -8584943240152700171
+    m_lastTime: -8584886186461211468
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 12ae366c8d22af459cf5c2dc2df72e86
     GuidInternal: 
-    m_lastTime: -8584943240155591050
+    m_lastTime: -8584886186473536921
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\BGM
     guid: 39297a6ad889224aabbfe35fcbe38947
     GuidInternal: 
-    m_lastTime: -8584897539065362686
+    m_lastTime: -8584885543024096878
     List:
     - name: inGameBGM
       guid: e35d2a4cb079a44fa75def37eb7acbee
@@ -82,6 +82,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: e35d2a4cb079a44fa75def37eb7acbee
       Path: SoundBanks\BGM\inGameBGM
+    - name: lvl5BGM
+      guid: 9cfb2b4f2e65d1408668f67df24be8fd
+      id: 3600548152
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: BGM
+        ObjectType: 12
+        guid: 39297a6ad889224aabbfe35fcbe38947
+      - ElementName: lvl5BGM
+        ObjectType: 7
+        guid: 9cfb2b4f2e65d1408668f67df24be8fd
+      Path: SoundBanks\BGM\lvl5BGM
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -93,7 +107,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b7260d2cb710ca4e9deecf45c1c378be
     GuidInternal: 
-    m_lastTime: -8584897805029818326
+    m_lastTime: -8584886186461296311
     List:
     - name: doorOpen
       guid: b01c8084c96e374f8928c0ddc553fcb4
@@ -134,7 +148,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\inGame
     guid: 2e73eb4f66eb4348a91752d7bd59faa8
     GuidInternal: 
-    m_lastTime: -8584887190269159039
+    m_lastTime: -8584885518636310802
     List:
     - name: doorCreak
       guid: e4415aff69b1874b92e472d8f329115d
@@ -150,6 +164,34 @@ MonoBehaviour:
         ObjectType: 7
         guid: e4415aff69b1874b92e472d8f329115d
       Path: SoundBanks\inGame\doorCreak
+    - name: doorSlam
+      guid: de9297effd6e2c46a9dd4c158def21c4
+      id: 3178299198
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: doorSlam
+        ObjectType: 7
+        guid: de9297effd6e2c46a9dd4c158def21c4
+      Path: SoundBanks\inGame\doorSlam
+    - name: doorSlamOutside
+      guid: 0ea10b9c4c8a4c4bb28f2a8e9ec841d2
+      id: 3269234127
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: doorSlamOutside
+        ObjectType: 7
+        guid: 0ea10b9c4c8a4c4bb28f2a8e9ec841d2
+      Path: SoundBanks\inGame\doorSlamOutside
     - name: doorUnlock
       guid: 6eb5a49a8d9156469290c9fe4efda64c
       id: 1553818165
@@ -220,6 +262,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: fef677cd588ce943944e5f1664dd27d4
       Path: SoundBanks\inGame\lanternThud
+    - name: lvl5FadeOut
+      guid: 17e7378986f2874794ad512611d22f29
+      id: 1358746344
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 2e73eb4f66eb4348a91752d7bd59faa8
+      - ElementName: lvl5FadeOut
+        ObjectType: 7
+        guid: 17e7378986f2874794ad512611d22f29
+      Path: SoundBanks\inGame\lvl5FadeOut
     - name: stairsNextLevel
       guid: 848df6eec742e64e9e0d94fbce6949ed
       id: 131039866
@@ -259,7 +315,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\MainMenu
     guid: 1dc8c89b5a95b745a9047bbfb939a688
     GuidInternal: 
-    m_lastTime: -8584897444192440887
+    m_lastTime: -8584886186461274738
     List:
     - name: startButton
       guid: bcf992f1c4f3f041a4911d39316ca635
@@ -301,7 +357,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ca950b3736828647adebcb9a8b06a07f
     GuidInternal: 
-    m_lastTime: -8584896728532019344
+    m_lastTime: -8584886186475083989
     List:
     - name: doorOpen
       guid: 6ff978bdd2db1341879856be28962da0
@@ -348,7 +404,7 @@ MonoBehaviour:
     ParentPath: Events\inGame
     guid: 5a57cf2957508340bc5cdd78745cb15c
     GuidInternal: 
-    m_lastTime: -8584887190269051860
+    m_lastTime: -8584885518636424028
     List:
     - name: BGM
       guid: 5ee111ef62083e43a1353a883334f85c
@@ -384,6 +440,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 5.0970507
       minDuration: 5.0970507
+    - name: doorSlam
+      guid: dbfb66359d62ee488b2fc613ed91f8d0
+      id: 3178299198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: doorSlam
+        ObjectType: 3
+        guid: dbfb66359d62ee488b2fc613ed91f8d0
+      Path: Events\inGame\doorSlam
+      maxAttenuation: 0
+      maxDuration: 0.795849
+      minDuration: 0.795849
+    - name: doorSlamOutside
+      guid: 8c8e5be92095134c8af816c723ba1fe1
+      id: 3269234127
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: doorSlamOutside
+        ObjectType: 3
+        guid: 8c8e5be92095134c8af816c723ba1fe1
+      Path: Events\inGame\doorSlamOutside
+      maxAttenuation: 0
+      maxDuration: 1.0449843
+      minDuration: 1.0449843
     - name: doorUnlock
       guid: a105fa8e916ced44a85848633d53fc87
       id: 1553818165
@@ -469,6 +559,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.69150996
       minDuration: 0.69150996
+    - name: lvl5BGM
+      guid: 743bcb6ccc99c34da20ded9451bc8512
+      id: 3600548152
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: lvl5BGM
+        ObjectType: 3
+        guid: 743bcb6ccc99c34da20ded9451bc8512
+      Path: Events\inGame\lvl5BGM
+      maxAttenuation: 0
+      maxDuration: 126.51102
+      minDuration: 126.51102
+    - name: lvl5FadeOut
+      guid: 0ce5e23148cb9b4a9e55b0e87c7168d4
+      id: 1358746344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: inGame
+        ObjectType: 12
+        guid: 5a57cf2957508340bc5cdd78745cb15c
+      - ElementName: lvl5FadeOut
+        ObjectType: 3
+        guid: 0ce5e23148cb9b4a9e55b0e87c7168d4
+      Path: Events\inGame\lvl5FadeOut
+      maxAttenuation: 0
+      maxDuration: 4.0762763
+      minDuration: 4.0762763
     - name: stairsNextLevel
       guid: 52ee3e69ee305e40bce4bc041ffd749f
       id: 131039866
@@ -514,7 +638,7 @@ MonoBehaviour:
     ParentPath: Events\Menu
     guid: ebef1118788e214e93934bc49538bd0e
     GuidInternal: 
-    m_lastTime: -8584897444192694035
+    m_lastTime: -8584886186475083989
     List:
     - name: Play
       guid: 87171e215e47844989f78518c81c80a0
@@ -562,7 +686,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e92fb1496be0ff46944d759b19927952
     GuidInternal: 
-    m_lastTime: -8584897805030174353
+    m_lastTime: -8584886186475071110
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -576,7 +700,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 1cb30a88a401ae47b65c193386a244e9
     GuidInternal: 
-    m_lastTime: -8584891552216394924
+    m_lastTime: -8584886186461231575
     List:
     - name: inGame
       guid: e51025b2d2d5884f801b835a0a5b26c0
@@ -722,7 +846,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 6c62ae175bd94549860e40d21c799037
     GuidInternal: 
-    m_lastTime: -8584897539065518363
+    m_lastTime: -8584886186461221434
     List:
     - name: Footsteps
       guid: f49987856525d04d801fb6ec25539e9f
@@ -770,7 +894,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 98259d56986d054cacb9d23a242f204a
     GuidInternal: 
-    m_lastTime: -8584901266812866185
+    m_lastTime: -8584886186461211468
     List:
     - name: New_Trigger
       guid: 254ba4aa10f7b2468f2a8441c4a90cf3
@@ -787,8 +911,8 @@ MonoBehaviour:
         guid: 254ba4aa10f7b2468f2a8441c4a90cf3
       Path: Triggers\Default Work Unit\New_Trigger
   ExpandedFileSystemItemIds: 02000000030000000400000006000000070000000a0000000c0000000d0000000f0000001100000013000000140000001500000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000260000002d0000002e000000320000003300000037000000ff8e0300e2b90400b69e1000
-  ExpandedWaapiItemIds: 02000000030000000400000006000000070000000a0000000c0000000d0000000f0000001100000013000000140000001500000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000260000002d0000002e000000320000003300000037000000ff8e0300e2b90400b69e1000
+  ExpandedWaapiItemIds: 02000000030000000400000006000000070000000a0000000c0000000d0000000f0000001100000013000000140000001500000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000260000002d0000002e0000003200000033000000370000004500000049000000ff8e0300e2b90400b69e1000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

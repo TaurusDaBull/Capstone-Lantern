@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3600548152	lvl5BGM			\inGame\lvl5BGM	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	77517031	lvl5BGM	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\lvl5BGM_55E4C307.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\lvl5BGM		2939574
+

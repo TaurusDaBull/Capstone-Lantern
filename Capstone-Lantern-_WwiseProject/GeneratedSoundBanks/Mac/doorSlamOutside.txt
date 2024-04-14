@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3269234127	doorSlamOutside			\inGame\doorSlamOutside	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	654986716	doorSlamOutside	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\doorSlam_4B14BC88.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\doorSlamOutside		25588
+

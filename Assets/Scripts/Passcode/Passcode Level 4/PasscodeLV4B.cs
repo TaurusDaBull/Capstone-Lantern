@@ -52,6 +52,10 @@ public class PasscodeLV4B : MonoBehaviour
 
 
         }
+        else
+        {
+            Passcode.text = " ";
+        }
       
 
     }

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Platform="Windows" BasePlatform="Windows">
 	<PluginLibs>
+		<PluginLib LibName="Wwise Parametric EQ" LibId="6881283" Type="Effect" DLL="AkParametricEQ" StaticLib="AkParametricEQFX"/>
 		<PluginLib LibName="Wwise Matrix Reverb" LibId="7536643" Type="Effect" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
+		<PluginLib LibName="Wwise RoomVerb" LibId="7733251" Type="Effect" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
 		<PluginLib LibName="Wwise Time Stretch" LibId="8519683" Type="Effect" DLL="AkTimeStretch" StaticLib="AkTimeStretchFX"/>
 		<PluginLib LibName="Wwise Pitch Shifter" LibId="8912899" Type="Effect" DLL="AkPitchShifter" StaticLib="AkPitchShifterFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{EE7BC1EA-AF3C-9740-2907-72F83DEE5ABE}</FileHash>
+	<FileHash>{2E787662-F477-C2CA-482A-16058592004C}</FileHash>
 </PluginInfo>

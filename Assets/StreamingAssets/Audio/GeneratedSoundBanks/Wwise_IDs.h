@@ -16,12 +16,16 @@ namespace AK
         static const AkUniqueID BGM = 412724365U;
         static const AkUniqueID DOORCREAK = 227958399U;
         static const AkUniqueID DOOROPEN = 1404805401U;
+        static const AkUniqueID DOORSLAM = 3178299198U;
+        static const AkUniqueID DOORSLAMOUTSIDE = 3269234127U;
         static const AkUniqueID DOORUNLOCK = 1553818165U;
         static const AkUniqueID KEYPADFAIL = 2411561249U;
         static const AkUniqueID KEYPADPRESSED = 2108322741U;
         static const AkUniqueID KEYPADSUCCESS = 2353527262U;
         static const AkUniqueID LANTERNPICKUP = 1546523411U;
         static const AkUniqueID LANTERNTHUD = 2165330516U;
+        static const AkUniqueID LVL5BGM = 3600548152U;
+        static const AkUniqueID LVL5FADEOUT = 1358746344U;
         static const AkUniqueID PLAY = 1256202815U;
         static const AkUniqueID STAIRSNEXTLEVEL = 131039866U;
         static const AkUniqueID START = 1281810935U;
@@ -64,6 +68,7 @@ namespace AK
 
             namespace SWITCH
             {
+                static const AkUniqueID CLOVERS = 1394758289U;
                 static const AkUniqueID STONE = 1216965916U;
             } // namespace SWITCH
         } // namespace FOOTSTEPS
@@ -80,6 +85,8 @@ namespace AK
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID DOORCREAK = 227958399U;
         static const AkUniqueID DOOROPEN = 1404805401U;
+        static const AkUniqueID DOORSLAM = 3178299198U;
+        static const AkUniqueID DOORSLAMOUTSIDE = 3269234127U;
         static const AkUniqueID DOORUNLOCK = 1553818165U;
         static const AkUniqueID INGAMEBGM = 1893515252U;
         static const AkUniqueID KEYPADFAIL = 2411561249U;
@@ -87,6 +94,8 @@ namespace AK
         static const AkUniqueID KEYPADSUCCESS = 2353527262U;
         static const AkUniqueID LANTERNPICKUP = 1546523411U;
         static const AkUniqueID LANTERNTHUD = 2165330516U;
+        static const AkUniqueID LVL5BGM = 3600548152U;
+        static const AkUniqueID LVL5FADEOUT = 1358746344U;
         static const AkUniqueID STAIRSNEXTLEVEL = 131039866U;
         static const AkUniqueID STARTBUTTON = 1651515387U;
         static const AkUniqueID TITLEMUSIC = 2191159630U;

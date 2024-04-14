@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3178299198	doorSlam			\inGame\doorSlam	
+
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	387850975	doorSlam	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\doorSlam_FFEA3ACC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\doorSlam		20667
+

@@ -59,6 +59,27 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="lvl5FadeOut" ID="{8937E717-F286-4787-94AD-512611D22F29}">
+					<ObjectInclusionList>
+						<ObjectRef Name="lvl5FadeOut" ID="{31E2E50C-CB48-4A9B-9E55-B0E87C7168D4}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="doorSlam" ID="{EF9792DE-6EFD-462C-A9DD-4C158DEF21C4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="doorSlam" ID="{3566FBDB-629D-48EE-8B2F-C613ED91F8D0}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="doorSlamOutside" ID="{9C0BA10E-8A4C-4B4C-B28F-2A8E9EC841D2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="doorSlamOutside" ID="{E95B8E8C-9520-4C13-8AF8-16C723BA1FE1}" WorkUnitID="{29CF575A-5057-4083-BC5C-DD78745CB15C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

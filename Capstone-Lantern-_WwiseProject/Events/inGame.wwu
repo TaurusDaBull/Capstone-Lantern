@@ -112,6 +112,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="doorSlam" ID="{3566FBDB-629D-48EE-8B2F-C613ED91F8D0}">
+					<ChildrenList>
+						<Action Name="" ID="{10724F1E-87EF-4598-A2E1-7621465479B8}" ShortID="380803795">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="doorSlam" ID="{ED13B6EC-2AED-4E0F-8B15-A755C77D32DA}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lvl5FadeOut" ID="{31E2E50C-CB48-4A9B-9E55-B0E87C7168D4}">
+					<ChildrenList>
+						<Action Name="" ID="{F933674B-D170-4122-B109-CD123C3B06BD}" ShortID="400918725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lvvl5FadeOut" ID="{F3C11D34-80CC-43DE-9546-A5194BC381C9}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lvl5BGM" ID="{6CCB3B74-99CC-4DC3-A20D-ED9451BC8512}">
+					<ChildrenList>
+						<Action Name="" ID="{AC92F386-2306-4B6A-B562-40DD01105AFC}" ShortID="794992437">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lvl5BGM" ID="{138A0F1E-716E-4F3D-AA5F-D9399C26C828}" WorkUnitID="{DBCAA427-A587-4353-BF5F-6B239AC26F72}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="doorSlamOutside" ID="{E95B8E8C-9520-4C13-8AF8-16C723BA1FE1}">
+					<ChildrenList>
+						<Action Name="" ID="{3FD3D1C0-FA21-4DF8-BA0E-22B00B49C6DF}" ShortID="563041731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="doorSlamOutside" ID="{13E08E9D-AAE2-43A3-84B6-D78150CCA722}" WorkUnitID="{95C23B48-DC02-42E8-8654-078B12A72307}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

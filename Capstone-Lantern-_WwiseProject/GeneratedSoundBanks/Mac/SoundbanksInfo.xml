@@ -9,13 +9,13 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="131039866" Type="User" Language="SFX" Hash="{391BC84E-B004-31CC-0946-2F4CA2177AB2}">
+		<SoundBank Id="131039866" Type="User" Language="SFX" Hash="{7C605CF8-0FAF-B682-4C1D-3B687AE10B58}">
 			<ShortName>stairsNextLevel</ShortName>
 			<Path>stairsNextLevel.bnk</Path>
 			<Media>
 				<File Id="1064052619" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>stairsNextLevel.wav</ShortName>
-					<CachePath>SFX/stairsNextLevel_1F78060C.wem</CachePath>
+					<CachePath>SFX/stairsNextLevel_B806A3DF.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -63,7 +63,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="881533257" Type="User" Language="SFX" Hash="{7E102474-A53D-C8E4-2684-816DEDCB38B7}">
+		<SoundBank Id="881533257" Type="User" Language="SFX" Hash="{DEDA3951-7F2C-7A8B-7193-80EA0AFE5686}">
 			<ShortName>walkingStone</ShortName>
 			<Path>walkingStone.bnk</Path>
 			<Media>
@@ -113,11 +113,12 @@
 				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
 						<Switch Id="1216965916" Name="stone"/>
+						<Switch Id="1394758289" Name="clovers"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{78B66010-FED3-DE47-D9A2-74FB4641FCF5}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{407969D4-3F8C-2DE6-81D2-971A9637FFDD}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -149,9 +150,37 @@
 				<SwitchGroup Id="2385628198" Name="Footsteps">
 					<Switches>
 						<Switch Id="1216965916" Name="stone"/>
+						<Switch Id="1394758289" Name="clovers"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1358746344" Type="User" Language="SFX" Hash="{7FE9E9AE-404C-B701-C4D0-B085BB5AFFCF}">
+			<ShortName>lvl5FadeOut</ShortName>
+			<Path>lvl5FadeOut.bnk</Path>
+			<Media>
+				<File Id="67386740" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lvvl5FadeOut.wav</ShortName>
+					<CachePath>SFX/lvvl5FadeOut_5BBF8A01.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1144018367" Name="Plate_Large" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="1358746344" Name="lvl5FadeOut" DurationType="OneShot" DurationMin="4.0762763" DurationMax="4.0762763">
+					<MediaRefs>
+						<MediaRef Id="67386740"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1144018367"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1404805401" Type="User" Language="SFX" Hash="{2621AA52-E6D7-0C59-5106-06FD27D7CFC5}">
 			<ShortName>doorOpen</ShortName>
@@ -241,13 +270,13 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1893515252" Type="User" Language="SFX" Hash="{E2F9E84A-3A09-673D-48E7-02FA94B9EF6E}">
+		<SoundBank Id="1893515252" Type="User" Language="SFX" Hash="{DD4EFE89-FFF7-D9DF-E292-7CE1899148A9}">
 			<ShortName>inGameBGM</ShortName>
 			<Path>inGameBGM.bnk</Path>
 			<Media>
 				<File Id="510686906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>inGame.wav</ShortName>
-					<CachePath>SFX/inGame_FE77B228.wem</CachePath>
+					<CachePath>SFX/inGame_17300B1A.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -365,6 +394,77 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3178299198" Type="User" Language="SFX" Hash="{9497A2D6-845D-4CEF-FF0B-030D8F8FED3B}">
+			<ShortName>doorSlam</ShortName>
+			<Path>doorSlam.bnk</Path>
+			<Media>
+				<File Id="387850975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>doorSlam.wav</ShortName>
+					<CachePath>SFX/doorSlam_FFEA3ACC.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="3178299198" Name="doorSlam" DurationType="OneShot" DurationMin="0.795849" DurationMax="0.795849">
+					<MediaRefs>
+						<MediaRef Id="387850975"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3269234127" Type="User" Language="SFX" Hash="{4E50B74D-9005-0874-3666-04A31D19F768}">
+			<ShortName>doorSlamOutside</ShortName>
+			<Path>doorSlamOutside.bnk</Path>
+			<Media>
+				<File Id="654986716" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>doorSlam.wav</ShortName>
+					<CachePath>SFX/doorSlam_4B14BC88.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1008402193" Name="Low_Pass_20KHz" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="3269234127" Name="doorSlamOutside" DurationType="OneShot" DurationMin="1.0449843" DurationMax="1.0449843">
+					<MediaRefs>
+						<MediaRef Id="654986716"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1008402193"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3600548152" Type="User" Language="SFX" Hash="{DCEB97B0-C80C-AF75-5B2B-BB08B2497981}">
+			<ShortName>lvl5BGM</ShortName>
+			<Path>lvl5BGM.bnk</Path>
+			<Media>
+				<File Id="77517031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>lvl5BGM.wav</ShortName>
+					<CachePath>SFX/lvl5BGM_55E4C307.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3600548152" Name="lvl5BGM" DurationType="OneShot" DurationMin="126.51102" DurationMax="126.51102">
+					<MediaRefs>
+						<MediaRef Id="77517031"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{580D7149-D1E9-66DC-614E-133C33532DD3}</FileHash>
+	<FileHash>{A6981570-1053-0588-131B-1848143B19BE}</FileHash>
 </SoundBanksInfo>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2928A0CD-5009-4940-A7B1-57E8B7407610}" SchemaVersion="119">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{2928A0CD-5009-4940-A7B1-57E8B7407610}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2928A0CD-5009-4940-A7B1-57E8B7407610}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Guitar_Distortion" ID="{79947DEB-2922-4D6D-823E-0A9641A95080}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="PostEQBand3Enable" Type="bool" Value="True"/>
+						<Property Name="PostEQBand3Frequency" Type="Real32" Value="20"/>
+						<Property Name="PreEQBand3Enable" Type="bool" Value="True"/>
+						<Property Name="PreEQBand3Frequency" Type="Real32" Value="20"/>
+						<Property Name="WetDryMix" Type="Real32" Value="41"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1358746344	lvl5FadeOut			\inGame\lvl5FadeOut	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1144018367	Plate_Large	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	67386740	lvvl5FadeOut	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\lvvl5FadeOut_5BBF8A01.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\lvvl5FadeOut		90074
+

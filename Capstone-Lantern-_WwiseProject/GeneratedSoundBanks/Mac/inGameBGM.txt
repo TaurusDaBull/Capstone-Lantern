@@ -10,5 +10,5 @@ State	ID	Name	State Group			Notes
 	4198606512	levelTransition	inGame			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	510686906	inGame	C:\Users\Willi\Documents\GitHub\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\inGame_FE77B228.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\inGame		1649960
+	510686906	inGame	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Mac\SFX\inGame_17300B1A.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\inGame		1649963
 

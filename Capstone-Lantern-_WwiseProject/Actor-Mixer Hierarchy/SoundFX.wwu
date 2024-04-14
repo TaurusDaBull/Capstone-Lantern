@@ -328,7 +328,14 @@
 						<ActiveSource Name="lanternThud" ID="{91A05DA0-1362-4AA9-BC4B-DA7625634FDD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="airTransition" ID="{D556EFBD-D90E-4113-82EC-67392F230CCB}" ShortID="380264603">
+				<Sound Name="doorSlam" ID="{ED13B6EC-2AED-4E0F-8B15-A755C77D32DA}" ShortID="758852443">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
@@ -338,21 +345,132 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="airTransition" ID="{082EC89E-078B-4EC4-8381-B3BF52182BA9}">
+						<AudioFileSource Name="doorSlam" ID="{63B16155-B9BB-4F4B-98FF-A4F334314C0F}">
 							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.0222339599700714"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="4.26892031425366"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.795848997493736"/>
 							</PropertyList>
 							<Language>SFX</Language>
-							<AudioFile>airTransition.wav</AudioFile>
+							<AudioFile>doorSlam.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="719572629"/>
+								<MediaID ID="387850975"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{77124F7F-6EA7-484B-8FDA-A298DA8AF7EE}" ShortID="776044713">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
-						<ActiveSource Name="airTransition" ID="{082EC89E-078B-4EC4-8381-B3BF52182BA9}" Platform="Linked"/>
+						<ActiveSource Name="doorSlam" ID="{63B16155-B9BB-4F4B-98FF-A4F334314C0F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="lvvl5FadeOut" ID="{F3C11D34-80CC-43DE-9546-A5194BC381C9}" ShortID="614345038">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="lvvl5FadeOut" ID="{8A22A783-3769-45EC-9F61-BAA8B4249357}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="4.07627628971414"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>lvvl5FadeOut.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="67386740"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{0C277B01-4E8B-4E64-B296-074C66B71C80}" ShortID="237370075">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Plate_Large" ID="{62CB7384-421D-4F9A-9CF1-E90F7336A07B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="lvvl5FadeOut" ID="{8A22A783-3769-45EC-9F61-BAA8B4249357}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="doorSlamOutside" ID="{13E08E9D-AAE2-43A3-84B6-D78150CCA722}" ShortID="718833603">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6FBB6D93-543D-4674-803C-4016DD1FA72A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6C36AE12-228D-45AF-9CF5-C2DC2DF72E86}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="doorSlam" ID="{B90B6639-6EF2-4918-B400-F6E5818FA268}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.0449843358396"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>doorSlam.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="654986716"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{D7D62FBD-5A64-4F24-B75D-6D72E5883465}" ShortID="141814248">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="doorSlam" ID="{B90B6639-6EF2-4918-B400-F6E5818FA268}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

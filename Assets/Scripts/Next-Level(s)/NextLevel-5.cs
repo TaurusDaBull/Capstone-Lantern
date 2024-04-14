@@ -9,7 +9,7 @@ public class NextLevel5 : MonoBehaviour
     public GameObject Player;
     public GameObject fadeOut;
     public AK.Wwise.Event stairsNextLevel;
-
+    public AK.Wwise.Event lvl5FadeOut;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,7 +23,7 @@ public class NextLevel5 : MonoBehaviour
             //Foot steps
 
             //ScreenManager will move the player to the next designated level
-            Invoke("NextLevelFinal", 3.5f);
+            Invoke("NextLevelFinal", 5.5f);
         }
     }
 
@@ -36,6 +36,7 @@ public class NextLevel5 : MonoBehaviour
     {
         fadeOut.SetActive(true);
         AkSoundEngine.PostEvent("stairsNextLevel", gameObject);
+        AkSoundEngine.PostEvent("lvl5FadeOut", gameObject);
     }
 
     void NextLevelFinal()

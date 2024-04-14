@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Platform="Mac" BasePlatform="Mac">
 	<PluginLibs>
+		<PluginLib LibName="Wwise Parametric EQ" LibId="6881283" Type="Effect" DLL="AkParametricEQ" StaticLib="AkParametricEQFX"/>
 		<PluginLib LibName="Wwise Matrix Reverb" LibId="7536643" Type="Effect" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
+		<PluginLib LibName="Wwise RoomVerb" LibId="7733251" Type="Effect" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
 		<PluginLib LibName="Wwise Time Stretch" LibId="8519683" Type="Effect" DLL="AkTimeStretch" StaticLib="AkTimeStretchFX"/>
 		<PluginLib LibName="Wwise Pitch Shifter" LibId="8912899" Type="Effect" DLL="AkPitchShifter" StaticLib="AkPitchShifterFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{8D3C5F2D-1EEB-A057-AD53-BA5D8B0EF53A}</FileHash>
+	<FileHash>{CC56974D-5118-24EF-7C01-39024A7F0A43}</FileHash>
 </PluginInfo>
