@@ -18,8 +18,8 @@
 					<ChildrenList>
 						<AudioFileSource Name="inGame" ID="{D83F03AA-7C22-4532-8A1E-796673A69BDC}">
 							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.337161997984653"/>
-								<Property Name="LoopBegin" Type="Real64" Value="13.1012958872104"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.56828970385146"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.434554551026054"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 								<Property Name="TrimEnd" Type="Real64" Value="85.5911382382697"/>
 							</PropertyList>
