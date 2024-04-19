@@ -70,13 +70,13 @@
 <h3>Quixel Mixer</h3>
 <p>Quixel Mixer is an Unreal product that allows for the creation of materials that can be applied to Unity assets. This software was chosen because it is the most user friendly software. Quixel Mixer was quick and easy to use when exporting material maps to Unity to apply to game objects.</p>
 <h1>Demo Levels Layout</h1>
-![Lantern Levels Layout drawio](https://github.com/TaurusDaBull/Capstone-Lantern/assets/122051465/f6335452-05d3-43a7-849f-cbac96f68600)
+[Lantern Levels Layout]<img src="https://github.com/TaurusDaBull/Capstone-Lantern/assets/122051465/f6335452-05d3-43a7-849f-cbac96f68600">
 
 <h1>Logical Solution</h1>
-![Start-of Flowchart drawio](https://github.com/TaurusDaBull/Capstone-Lantern/assets/122051465/35fcc58d-4b54-409a-828e-5e3284846059)
+[Start-of Flowchart]<img src="https://github.com/TaurusDaBull/Capstone-Lantern/assets/122051465/35fcc58d-4b54-409a-828e-5e3284846059">
 
 <h1>Physical Solution</h1>
-![Lantern Physical Design drawio](https://github.com/TaurusDaBull/Capstone-Lantern/assets/122051465/12270f4b-6b34-4410-947a-f5f0417bce82)
+[Lantern Physical Design]<img src="https://github.com/TaurusDaBull/Capstone-Lantern/assets/122051465/12270f4b-6b34-4410-947a-f5f0417bce82">
 
 <h1>Technical Approach</h1>
 <h3>Gameplay Flow</h3>
