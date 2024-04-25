@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\new lantern\\capstone-lantern-\\assets\\scripts\\lantern code\\lanterncapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lantern code\\lanterncapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\new lantern\\capstone-lantern-\\assets\\scripts\\lantern code\\pickuplanternlvl2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lantern code\\pickuplanternlvl2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\new lantern\\capstone-lantern-\\assets\\scripts\\uiinstruction\\brightnessslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiinstruction\\brightnessslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\new lantern\\capstone-lantern-\\assets\\scripts\\uiinstruction\\spellthanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiinstruction\\spellthanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\new lantern\\capstone-lantern-\\assets\\scripts\\player\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\new lantern\\capstone-lantern-\\assets\\scripts\\uiinstruction\\optionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiinstruction\\optionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\new lantern\\capstone-lantern-\\assets\\scripts\\uiinstruction\\resumeplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiinstruction\\resumeplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\new lantern\\capstone-lantern-\\assets\\scripts\\uiinstruction\\quitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiinstruction\\quitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|c:\\users\\willi\\documents\\new lantern\\capstone-lantern-\\assets\\scripts\\uiinstruction\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5242D229-C8A2-AF6A-31B8-03BF1EAFC151}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiinstruction\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +51,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LanternCapture.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\Lantern Code\\LanternCapture.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lantern Code\\LanternCapture.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\Lantern Code\\LanternCapture.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lantern Code\\LanternCapture.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:35:13.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PickUpLanternLvl2.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\Lantern Code\\PickUpLanternLvl2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lantern Code\\PickUpLanternLvl2.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\Lantern Code\\PickUpLanternLvl2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lantern Code\\PickUpLanternLvl2.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:33:38.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "spellThanks.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\spellThanks.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIInstruction\\spellThanks.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\spellThanks.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIInstruction\\spellThanks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:15:17.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FirstPersonController.cs",
               "DocumentMoniker": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\Player\\FirstPersonController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\FirstPersonController.cs",
               "ToolTip": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\Player\\FirstPersonController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\FirstPersonController.cs",
-              "ViewState": "AQIAAIUAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAswAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T04:50:27.482Z",
+              "WhenOpened": "2024-04-24T05:13:33.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "brightnessSlider.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\brightnessSlider.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIInstruction\\brightnessSlider.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\brightnessSlider.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIInstruction\\brightnessSlider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:09:57.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OptionMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\OptionMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIInstruction\\OptionMenu.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\OptionMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIInstruction\\OptionMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:08:31.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResumePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\ResumePlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIInstruction\\ResumePlayer.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\ResumePlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIInstruction\\ResumePlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:06:10.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuitGame.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\QuitGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIInstruction\\QuitGame.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\QuitGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIInstruction\\QuitGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:05:43.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIInstruction\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\New Lantern\\Capstone-Lantern-\\Assets\\Scripts\\UIInstruction\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIInstruction\\PauseMenu.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwBkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T05:02:16.216Z",
               "EditorCaption": ""
             }
           ]

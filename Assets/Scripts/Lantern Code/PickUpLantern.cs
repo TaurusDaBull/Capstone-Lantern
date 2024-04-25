@@ -15,6 +15,7 @@ public class PickUpLantern : MonoBehaviour
 
     void Start()
     {
+        //On start hide Lantern Instruction animation and set Lantern on player to false
         LanternOnPlayer.SetActive(false);
         LanternInstructions.SetActive(false);
     }
@@ -27,6 +28,8 @@ public class PickUpLantern : MonoBehaviour
 
             if (Input.GetMouseButton(1))
             {
+                //Play sound of Lantern pick-up, Play Lantern animation after one second
+                //Set Lantern on stand to false, Set Lantern on Player to true, remove UI text
                 AkSoundEngine.PostEvent("lanternPickUp", gameObject);
                 Invoke("LanternInstruct", 1);
                 this.gameObject.SetActive(false);
@@ -40,11 +43,13 @@ public class PickUpLantern : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        //Remove UI text when proximity of stand is left
         pickUp.text = " ";
     }
 
     private void LanternInstruct()
     {
+        //Play Lantern Instructions
         LanternInstructions.SetActive(true);
     }
 

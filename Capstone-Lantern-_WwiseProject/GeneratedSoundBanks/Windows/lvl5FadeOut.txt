@@ -5,5 +5,5 @@ Effect plug-ins	ID	Name	Type				Notes
 	1144018367	Plate_Large	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	67386740	lvvl5FadeOut	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\lvvl5FadeOut_5BBF8A01.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\lvvl5FadeOut		90074
+	67386740	lvvl5FadeOut	C:\Users\Willi\Documents\New Lantern\Capstone-Lantern-\Capstone-Lantern-_WwiseProject\.cache\Windows\SFX\lvvl5FadeOut_A47B870D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\lvvl5FadeOut		90074
 

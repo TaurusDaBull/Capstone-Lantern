@@ -155,13 +155,13 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1358746344" Type="User" Language="SFX" Hash="{7FE9E9AE-404C-B701-C4D0-B085BB5AFFCF}">
+		<SoundBank Id="1358746344" Type="User" Language="SFX" Hash="{7A3CD71E-02CD-13FD-CEDB-6D3D4D5F97A3}">
 			<ShortName>lvl5FadeOut</ShortName>
 			<Path>lvl5FadeOut.bnk</Path>
 			<Media>
 				<File Id="67386740" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>lvvl5FadeOut.wav</ShortName>
-					<CachePath>SFX/lvvl5FadeOut_5BBF8A01.wem</CachePath>
+					<CachePath>SFX/lvvl5FadeOut_A47B870D.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -270,13 +270,13 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1893515252" Type="User" Language="SFX" Hash="{DD4EFE89-FFF7-D9DF-E292-7CE1899148A9}">
+		<SoundBank Id="1893515252" Type="User" Language="SFX" Hash="{9FA50C17-B4DC-CA2B-408B-DE3183122D69}">
 			<ShortName>inGameBGM</ShortName>
 			<Path>inGameBGM.bnk</Path>
 			<Media>
 				<File Id="510686906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>inGame.wav</ShortName>
-					<CachePath>SFX/inGame_17300B1A.wem</CachePath>
+					<CachePath>SFX/inGame_FC534EC9.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -394,13 +394,13 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3178299198" Type="User" Language="SFX" Hash="{9497A2D6-845D-4CEF-FF0B-030D8F8FED3B}">
+		<SoundBank Id="3178299198" Type="User" Language="SFX" Hash="{2A939AAE-6547-4576-36DD-CE1EB70C6E88}">
 			<ShortName>doorSlam</ShortName>
 			<Path>doorSlam.bnk</Path>
 			<Media>
 				<File Id="387850975" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>doorSlam.wav</ShortName>
-					<CachePath>SFX/doorSlam_FFEA3ACC.wem</CachePath>
+					<CachePath>SFX/doorSlam_AE83885D.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -448,13 +448,13 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3600548152" Type="User" Language="SFX" Hash="{DCEB97B0-C80C-AF75-5B2B-BB08B2497981}">
+		<SoundBank Id="3600548152" Type="User" Language="SFX" Hash="{ED38F1AA-9DEC-5AD4-F6B7-A98E7A0FC7EA}">
 			<ShortName>lvl5BGM</ShortName>
 			<Path>lvl5BGM.bnk</Path>
 			<Media>
 				<File Id="77517031" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>lvl5BGM.wav</ShortName>
-					<CachePath>SFX/lvl5BGM_55E4C307.wem</CachePath>
+					<CachePath>SFX/lvl5BGM_CE0E06ED.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -466,5 +466,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EB69B6AC-CE85-245E-ABCE-C42BF4EEC817}</FileHash>
+	<FileHash>{DA7B88C5-415B-72D4-4797-3CBE5777287C}</FileHash>
 </SoundBanksInfo>

@@ -111,7 +111,7 @@ public class ThrowLanternTrajectory : MonoBehaviour
 
     void lanternThrown()
     {
-
+        //Lantern throw debugging
         x = + 1;
         Debug.Log(x);
         Debug.Log("Lantern has been thrown");

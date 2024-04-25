@@ -8,39 +8,43 @@ public class PickUpLanternLvl2 : MonoBehaviour
 {
   
 
-    public GameObject LanternOnPlayer;
-    public TMP_Text pickUp;
-    public AK.Wwise.Event lanternPickUp;
-    public GameObject ThrowInstructions;
-    private bool onceThrow;
+    public GameObject LanternOnPlayer; //The Lantern on the Player
+    public TMP_Text pickUp; //UI Text
+    public AK.Wwise.Event lanternPickUp; //Lantern pick-up sound
+    public GameObject ThrowInstructions; //UI instruction
+    private bool onceThrow; //bool for single occurence
   
 
     void Start()
     {
-        LanternOnPlayer.SetActive(false);
-        ThrowInstructions.SetActive(false);
-        onceThrow = false;
+        //At the start of game:
+        LanternOnPlayer.SetActive(false);  //Lantern on player not active
+        ThrowInstructions.SetActive(false); //Throw instructions don't play at start of game
+        onceThrow = false; //bool for single occurence set to false 
  
     }
 
     private void OnTriggerStay(Collider other)
     {
+        //When reach object touches stand
         if(other.gameObject.tag == "Reach")
         {
+            //text to Right click is displayed
             pickUp.text = "Right Click to Pick-up";
-
+            //Right mouse button is clicked
             if (Input.GetMouseButton(1))
             {
+                //Play sound pick-up sound
                 AkSoundEngine.PostEvent("lanternPickUp", gameObject);
-                if (onceThrow == false)
+                if (onceThrow == false) //single occurence bool must be false
                 {
-                Invoke("LanternInstruct", 1);
-                    onceThrow = true;
+                Invoke("LanternInstruct", 1); //Play Lantern instructions after single second wait
+                    onceThrow = true; //single occurence bool is set to true
 
                 }
-                this.gameObject.SetActive(false);
-                LanternOnPlayer.SetActive(true);
-                pickUp.text = " ";
+                this.gameObject.SetActive(false); //Lantern on stand active is set to false
+                LanternOnPlayer.SetActive(true); //Lantern on the player is set to true
+                pickUp.text = " "; //remove UI text
 
             }
 
@@ -49,12 +53,13 @@ public class PickUpLanternLvl2 : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        pickUp.text = " ";
+        //Player leaves proximity of Lantern on stand
+        pickUp.text = " "; //clear UI text
     }
 
     private void LanternInstruct()
     {
-        ThrowInstructions.SetActive(true);
+        ThrowInstructions.SetActive(true); //Play Lantern instruction animation
     }
 
 

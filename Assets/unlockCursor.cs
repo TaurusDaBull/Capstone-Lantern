@@ -5,9 +5,12 @@ using UnityEngine;
 public class unlockCursor : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        Cursor.lockState = CursorLockMode.None;   
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        AkBankManager.LoadBank("titleMusic",false, false);
+        Time.timeScale = 1f;
     }
 
 

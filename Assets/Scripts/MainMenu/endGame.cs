@@ -7,6 +7,7 @@ public class endGame : MonoBehaviour
     // Start is called before the first frame update
     public void quitGame()
     {
+        //Close application
         Application.Quit();
     }
 

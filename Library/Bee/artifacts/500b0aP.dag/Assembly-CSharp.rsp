@@ -396,6 +396,7 @@
 "Assets/spellThanks.cs"
 "Assets/stairsNextLevel.cs"
 "Assets/StandFloorRespawn.cs"
+"Assets/unlockCursor.cs"
 "Assets/Ww_MaterialSwitch.cs"
 -langversion:9.0
 

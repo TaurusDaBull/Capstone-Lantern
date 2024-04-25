@@ -13,6 +13,7 @@ public class mainToLVL1 : MonoBehaviour
 
     IEnumerator LevelLoad(string name)
     {
+        //Wait for 2 seconds before loading next scene
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene("Lvl 1");
     }
